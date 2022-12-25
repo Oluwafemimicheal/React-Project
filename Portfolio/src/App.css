@@ -30,6 +30,7 @@ button {
 
 ul {
     display: flex;
+    align-items: center;
     list-style: none;
 }
 
@@ -117,8 +118,16 @@ section {
     z-index: 999;
 }
 
+.navbar div {
+    opacity: 0;
+}
+
 .navbar {
     align-items: center;
+}
+
+.navbar-m {
+    display: none;
 }
 
 
@@ -167,6 +176,7 @@ section {
 }
 
 .detail button {
+    margin-top: 20px !important;
     color: white;
 }
 

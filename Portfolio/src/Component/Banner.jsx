@@ -1,4 +1,5 @@
 import React from 'react';
+import {ArrowDown} from 'react-bootstrap-icons'
 import Self from '../assess/image/Self.png'
 
 export const Banner = () => {
@@ -17,7 +18,7 @@ export const Banner = () => {
                             <h2>FRONTEND DEVELOPER & GRAPHICS DESIGNER</h2>
                             <p>I'm a Front-end developer, specializing in building 
                             (and occasionally designing), I enjoy creating things that live on the internet</p>
-                            <button><a href="#Contact">Let's Connect</a></button>
+                            <button><a href="#Contact">Let's Connect <ArrowDown style={{fontSize:15}}/></a></button>
                         </div>
                     </div>
                 </div>
