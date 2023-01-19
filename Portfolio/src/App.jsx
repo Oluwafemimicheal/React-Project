@@ -3,18 +3,20 @@ import { Navbar } from './Component/Navbar';
 import './App.css'
 import { Banner} from './Component/Banner'
 import Footer from './Component/Footer';
-import Skills from './Component/Main/Skills';
-import Project from './Component/Main/Project';
-import Experience from './Component/Main/Experience';
 import Contact from './Component/Main/Contact';
+import Service from './Component/Main/Service/Service';
+import About from './Component/Main/About Me/About';
+import Skill from './Component/Main/Skills/Skills'
+import Project from './Component/Main/Project/Project';
 
 const App = ()=>{
     return(
         <>
         <Navbar/>
         <Banner/>
-        <Skills/>
-        <Experience/>
+        <About/>
+        <Service/>
+        <Skill/>
         <Project/>
         <Contact/>
         <Footer/>

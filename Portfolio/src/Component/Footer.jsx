@@ -3,10 +3,11 @@ import {Facebook, Instagram, Whatsapp, Telegram, Github} from 'react-bootstrap-i
 
 export default function Footer() {
   const style={
-    fontSize: 35
+    fontSize: 30
   }
+
     return (
-      <footer>
+      <footer id='Contact'>
         <div className="container">
         <div className="social-media row">
              <i><Facebook style={style}/></i>
@@ -16,7 +17,7 @@ export default function Footer() {
              <i><Github style={style}/></i>
         </div>
         <div className="header">
-            <p>Designed by Oluwafemi Micheal &copy; 2022!</p>
+            <p>Designed by Oluwafemi Micheal &copy;2023!</p>
         </div>
         </div>
       </footer>

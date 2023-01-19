@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
 .container {
     width: 80%;
     margin: auto;
-    padding: 5px 0%;
+    padding: 5px 0;
+    overflow: hidden;
+    position: relative;
 }
 
 h1,
@@ -43,15 +46,19 @@ li {
 
 a {
     text-decoration: none;
-    padding: 5px;
+    padding: 5px 0%;
     background-color: transparent;
     color: black;
-    transition: all 0.48s ease;
 }
 
-a:hover {
-    background-color: steelblue;
+
+/* a:hover {
+    border-bottom: 2px solid steelblue;
     color: white;
+} */
+
+.Navbar-active a:hover {
+    color: black;
 }
 
 button {
@@ -81,6 +88,7 @@ button:active {
 section {
     padding: 30px 0% !important;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -103,6 +111,15 @@ section {
 
 .header p {
     margin: 8px;
+    font-size: 1.5rem;
+}
+
+
+/* small screen */
+
+.menu {
+    display: none;
+    font-size: 30px;
 }
 
 
@@ -113,40 +130,49 @@ section {
     width: 100%;
     top: 0%;
     left: 0%;
-    box-shadow: 0 0 4px 0 gray;
-    background-color: white;
     z-index: 999;
 }
 
-.navbar div {
-    opacity: 0;
+.Navbar-container a {
+    color: white;
 }
 
-.navbar {
-    align-items: center;
+.Navbar-active {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    box-shadow: 0 0 4px 0 gray;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    animation: navbar 5s linear;
 }
 
-.navbar-m {
-    display: none;
+@media(max-width: 700px) {
+    .menu {
+        display: block;
+        color: white;
+    }
+    .Navbar-active .menu {
+        color: black;
+    }
+    .navbar {
+        display: none;
+    }
 }
 
 
 /* Banner css */
 
 .Banner-container {
-    background: url('./assess/image/coding.jpg') no-repeat;
+    background: rgb(0, 0, 0);
     background-size: 100%;
-}
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.67);
 }
 
 .banner {
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
+    position: relative;
 }
 
 .banner a:hover {
@@ -155,7 +181,7 @@ section {
 
 .banner a {
     margin: 10px 0% !important;
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .row1 {
@@ -164,11 +190,37 @@ section {
     align-items: center;
 }
 
+.row1 .image {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.image .bg {
+    position: absolute;
+    top: -50% !important;
+    left: 15%;
+    transform: translate(-0%, -30%);
+    width: 100%;
+}
+
+.image .self-image {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-0%, -50%);
+    z-index: 1;
+    width: 55%;
+}
+
 .detail {
-    display: block;
-    width: 60%;
-    line-height: 2.0em;
+    flex: 1;
+    flex-direction: column;
     color: white;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.2rem;
 }
 
 .detail p {
@@ -187,120 +239,28 @@ section {
 }
 
 .detail h1 {
-    font-size: 4rem;
-    line-height: 1;
+    font-size: 4.5rem;
+    font-family: 'Knewave', sans-serif;
     color: steelblue;
+    line-height: 1;
+    letter-spacing: 10px;
 }
 
 .detail h2 {
-    width: 90%;
     background-color: steelblue;
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
 }
 
-.detail p,
-h3 {
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 100;
-}
-
-
-/* Skills css */
-
-.card {
-    width: 100%;
-    margin: 50px 0%;
-    min-height: 40vh;
-}
-
-.card .item {
-    position: relative;
-    width: 400px;
-    height: 200px;
-    margin: 10px;
-}
-
-.card .item div h2 {
-    margin-top: 40px;
-}
-
-.card .item span {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%);
-    width: 80%;
-    height: 80%;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: steelblue;
-    overflow: hidden;
-}
-
-.card .item span::after {
-    content: '90%';
-    width: 92%;
-    height: 92%;
-    border-radius: 50%;
-    color: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.detail h3 {
     font-size: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
-    background-color: white;
-    z-index: 2;
+    font-family: 'Poppins', sans-serif;
 }
 
-@keyframes color {
-    100% {
-        transform: rotate(360deg);
-    }
+.detail p {
+    font-size: 18px;
 }
-
-.card .item span::before {
-    content: '';
-    width: 60%;
-    height: 250%;
-    position: absolute;
-    background-color: white;
-    animation: color 3s infinite;
-}
-
-.card .item .span2::after {
-    content: '80%';
-    color: steelblue;
-}
-
-.card .item .span2::before {
-    animation-duration: 5s;
-    color: brown;
-}
-
-.card .item .span3::after {
-    content: '70%';
-    color: brown;
-}
-
-.card .item .span4::after {
-    content: '60%';
-    color: steelblue;
-}
-
-.card .item .span4::before {
-    animation-duration: 4s;
-}
-
-.card .item .span5::after {
-    content: '50%';
-    color: brown;
-}
-
 
 /* Experience css */
 
@@ -425,10 +385,11 @@ textarea::placeholder {
 /* Footer css */
 
 footer {
-    background-color: steelblue;
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     padding: 20px;
+    font-size: 1.5rem;
 }
 
 .social-media {

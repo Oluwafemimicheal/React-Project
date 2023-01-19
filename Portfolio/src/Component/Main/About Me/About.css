@@ -1,0 +1,67 @@
+#About * {
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#About {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+}
+
+#About .image {
+    flex: 1;
+}
+
+#About .image .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, white, white, white, steelblue, steelblue);
+}
+
+#About .About-detail {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+#About .About-detail p {
+    text-align: left;
+    margin: 15px 0%;
+    line-height: 2;
+}
+
+#About .About-detail h1 {
+    color: steelblue;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#About .About-detail span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#About .About-detail button {
+    padding: 5px;
+    background-color: steelblue;
+    color: white;
+}
+
+#About .About-detail button:hover {
+    border: 2px solid steelblue;
+    background-color: transparent;
+    color: steelblue;
+}
