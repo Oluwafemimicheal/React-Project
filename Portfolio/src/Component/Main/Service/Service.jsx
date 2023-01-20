@@ -8,7 +8,7 @@ import './Service.css'
 
 const Service = () =>{
     return(
-        <div className="service">
+        <div className="service" id='Service'>
             <div className="s-left">
                 <span>My Awesome</span>
                 <span>Service</span>

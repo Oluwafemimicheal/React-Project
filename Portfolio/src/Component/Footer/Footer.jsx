@@ -1,14 +1,14 @@
 import React from 'react'
 import {Facebook, Instagram, Whatsapp, Telegram, Github} from 'react-bootstrap-icons'
-
-export default function Footer() {
+import './Footer.css'
+const Footer= () => {
   const style={
     fontSize: 30
   }
 
     return (
       <footer id='Contact'>
-        <div className="social-media row">
+        <div className="social-media">
              <i><Facebook style={style}/></i>
              <i><Instagram style={style}/></i>
              <i><Whatsapp style={style}/></i>
@@ -16,8 +16,9 @@ export default function Footer() {
              <i><Github style={style}/></i>
         </div>
         <div className="header">
-            <p>Designed by Oluwafemi Micheal &copy;2023!</p>
+            <p style={{fontSize: 18}}>Designed by Oluwafemi Micheal &copy;2023!</p>
         </div>
       </footer>
     )
 }
+export default Footer;

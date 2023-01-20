@@ -1,5 +1,18 @@
-@media(max-width: 700) {
-    .navbar {
+@media(max-width:700px) {
+    .container-active {
+        position: relative;
+        height: 20vh;
+    }
+    .container .row {
+        position: relative;
+        margin: 10px 0%;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .row .navbar {
+        position: absolute;
+        top: 120%;
+        left: 0%;
         display: flex;
         justify-content: center;
         align-items: center;

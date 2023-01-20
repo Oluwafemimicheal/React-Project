@@ -5,6 +5,7 @@
     flex-direction: row-reverse;
     text-align: center;
     height: 90vh;
+    overflow: hidden;
 }
 
 #Skill .s-header {
@@ -117,25 +118,29 @@ img {
     #Skill .s-header {
         flex: none;
     }
+    .card-con {
+        top: 5%;
+    }
     .card-con .sk-card:nth-child(1) {
         top: 10%;
-        left: 10%;
+        left: 8%;
     }
     .card-con .sk-card:nth-child(2) {
         top: 18%;
-        left: 50%;
+        left: 58%;
     }
     .card-con .sk-card:nth-child(3) {
-        top: 46%;
-        left: 10%;
+        top: 44%;
+        left: 8%;
     }
     .card-con .sk-card:nth-child(4) {
-        top: 54%;
-        left: 50%;
+        top: 52%;
+        left: 58%;
     }
     .card-con .sk-card {
-        width: 10rem;
-        height: 10rem;
+        width: 30%;
+        height: 20%;
+        transform: scale(1.4);
     }
     .sk-card span:nth-child(2) {
         display: none;

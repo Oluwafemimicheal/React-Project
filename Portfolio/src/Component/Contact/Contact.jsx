@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Contact.css'
 const Contact = () => {
     return (
         <section  name='Contact' className='container' >
@@ -13,7 +13,7 @@ const Contact = () => {
                     <input type="text" placeholder=' Enter your full name'/>
                     <input type="text" placeholder='Enter your phone-number' />
                 </div>
-                <textarea cols="30" rows="5"></textarea>
+                <textarea cols="30" rows="10"></textarea>
             </form>
             <button>Send Message</button>
         </section>

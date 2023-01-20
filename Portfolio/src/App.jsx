@@ -2,8 +2,8 @@ import React from 'react'
 import { Navbar } from './Component/Navbar/Navbar';
 import './App.css'
 import Banner from './Component/Banner/Banner'
-import Footer from './Component/Footer';
-import Contact from './Component/Main/Contact';
+import Footer from './Component/Footer/Footer';
+import Contact from './Component/Contact/Contact';
 import Service from './Component/Main/Service/Service';
 import About from './Component/Main/About Me/About';
 import Skill from './Component/Main/Skills/Skills'
@@ -15,8 +15,8 @@ const App = ()=>{
         <Navbar/>
         <Banner/>
         <About/>
-        <Service/>
         <Skill/>
+        <Service/>
         <Project/>
         <Contact/>
         <Footer/>

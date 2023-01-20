@@ -5,7 +5,7 @@ import pImage1 from '../image/social-market.png'
 
 const Project = ()=>{
     return(
-        <div className="project">
+        <div className="project" id='Project'>
             <div className="p-left">
                 <span>My Project</span>
                 <span>Expand Knowledge</span>
