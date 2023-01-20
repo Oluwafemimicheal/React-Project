@@ -5,6 +5,7 @@
     display: flex;
     height: 90vh;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .service .s-left {
@@ -76,6 +77,21 @@
     color: steelblue;
 }
 
+.s-card:nth-child(2) {
+    top: 5%;
+    left: 50%;
+}
+
+.s-card:nth-child(3) {
+    top: 30%;
+    left: -5%;
+}
+
+.s-card:nth-child(4) {
+    top: 55%;
+    left: 50%;
+}
+
 .ser-card {
     display: flex;
     flex-direction: column;
@@ -99,4 +115,49 @@
     height: 100px;
     background-color: steelblue;
     filter: blur(100px);
+}
+
+@media(max-width: 700px) {
+    .service {
+        width: 90%;
+        margin: 20px auto;
+        flex-direction: column;
+        height: 95vh;
+    }
+    .service .s-left {
+        flex: none;
+    }
+    .s-right {
+        margin-bottom: 50px;
+    }
+    .s-right .s-card {
+        width: 45%;
+        height: 50%;
+    }
+    .s-card:nth-child(2) {
+        top: 5%;
+        left: 0%;
+    }
+    .s-card:nth-child(3) {
+        top: 30%;
+        left: 50%;
+    }
+    .s-card:nth-child(4) {
+        top: 60%;
+        left: 0%;
+    }
+    .ser-card {
+        padding: 0%;
+        gap: 0.3rem;
+    }
+    .s-card span:nth-child(2) {
+        font-size: 12px;
+    }
+    .s-card span:nth-child(3) {
+        font-size: 13px;
+    }
+    .s-card button {
+        padding: 4px;
+        font-size: 10px;
+    }
 }

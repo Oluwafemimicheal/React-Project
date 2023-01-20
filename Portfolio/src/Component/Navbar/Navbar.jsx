@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import * as Icon from 'react-bootstrap-icons'
 import {Link} from 'react-scroll'
+import './Navbar.css'
+
 
 export const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -19,7 +21,7 @@ export const Navbar = () => {
             <div className="container">
                 <div className="row">
                     <div className="logo">
-                            <Icon.Person style={{fontSize: 35, color:'steelblue'}}/>
+                            <faCamera style={{fontSize: 35, color:'steelblue'}}/>
                     </div>
                     <ul className='navbar'>
                         <li><Link to='Home' smooth={true} duration={1000}>Home</Link></li>

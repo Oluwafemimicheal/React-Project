@@ -15,16 +15,16 @@ const Skills = () => {
           <span>This is some of the experience which in have gather for some years to start and to continue my frontend develope skill</span>
       </div>
       <div className="card-con">
-        <div className="sk-card" style={{top:'0%', left: '0%'}} >
+        <div className="sk-card" >
         <SkillCard image={HTML}  course='HTML is the standard markup language for creating Web pages.'/>
         </div>
-        <div className="sk-card" style={{top: '10%',left: '52%'}}>
+        <div className="sk-card">
         <SkillCard image={CSS}  course='CSS is the language we use to style an HTML document'/>
         </div>
-        <div className="sk-card"  style={{top: '54%', left: '52%', zIndex: 2}}>
+        <div className="sk-card">
         <SkillCard image={JS} course='JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else'/>
         </div>
-        <div className="sk-card"  style={{top: '44%', left: '0%'}}>
+        <div className="sk-card">
         <SkillCard image={REACT}  course="It's used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript."/>
         </div>
       </div>

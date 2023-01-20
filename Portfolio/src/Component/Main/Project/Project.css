@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: r;
+    overflow: hidden;
 }
 
 .project .p-left {
@@ -58,8 +58,6 @@
 .p-detail {
     background-color: rgba(70, 131, 180, 0.55);
     padding: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -75,4 +73,31 @@
     font-weight: 800;
     color: white;
     flex-direction: row-reverse;
+}
+
+@media(max-width:700px) {
+    .project {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .p-right {
+        padding: 30px;
+        background-color: black;
+        overflow: hidden;
+    }
+    .p-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .p-detail {
+        overflow: hidden;
+        margin-top: 10px;
+        padding-right: 80px;
+        font-size: 18px;
+    }
+    .p-detail span {
+        font-size: 12px;
+        padding: 0% 20px;
+    }
 }

@@ -8,7 +8,6 @@ export default function Footer() {
 
     return (
       <footer id='Contact'>
-        <div className="container">
         <div className="social-media row">
              <i><Facebook style={style}/></i>
              <i><Instagram style={style}/></i>
@@ -18,7 +17,6 @@ export default function Footer() {
         </div>
         <div className="header">
             <p>Designed by Oluwafemi Micheal &copy;2023!</p>
-        </div>
         </div>
       </footer>
     )

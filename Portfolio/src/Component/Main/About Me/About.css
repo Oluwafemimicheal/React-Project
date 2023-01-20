@@ -12,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: 90vh;
+    overflow: hidden;
 }
 
 #About .image {
@@ -64,4 +65,26 @@
     border: 2px solid steelblue;
     background-color: transparent;
     color: steelblue;
+}
+
+@media(max-width: 700px) {
+    #About {
+        width: 95%;
+        margin: 20px auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #About .image .box {
+        width: 200px;
+        height: 200px;
+    }
+    #About .About-detail * {
+        text-align: left;
+        line-height: 1.2;
+    }
+    #About .About-detail button {
+        padding: 5px;
+        background-color: steelblue;
+        color: white;
+    }
 }

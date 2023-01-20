@@ -1,9 +1,10 @@
 import React from 'react';
 import {ArrowDown} from 'react-bootstrap-icons'
-import Self from './Main/image/Self.png'
-import bgImage from '../assess/image/bg-image.png'
+import Self from '../Main/image/Self.png'
+import bgImage from '../Main/image/bg-image.png'
+import './Banner.css'
 
-export const Banner = () => {
+const Banner = () => {
 
     return (
         <div className='Banner-container' id='Home'>
@@ -28,3 +29,4 @@ export const Banner = () => {
         </div>
     );
 }
+export default Banner;

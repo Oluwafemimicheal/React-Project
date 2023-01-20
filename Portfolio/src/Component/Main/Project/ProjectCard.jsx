@@ -2,7 +2,7 @@ import React from 'react';
 import './Project.css'
 const ProjectCard = ({image,Title,text}) => {
     return (
-        <div className='p-card'>
+        <div>
             <div className="p-image">
             <img src={image} alt="Loading..." style={{width: '80%'}}/>
             </div>
