@@ -19,6 +19,9 @@ const Project = ()=>{
             <div className="p-card">
                 <ProjectCard image={pImage1} Title='Friend Card' text={'friend Card help you to save your friend details on cloud and to write some things special about your friend and also choose the category of friend that He/She is, among your friends!'}/>
             </div>
+            <div className="p-card">
+                <ProjectCard image={pImage1} Title='Friend Card' text={'friend Card help you to save your friend details on cloud and to write some things special about your friend and also choose the category of friend that He/She is, among your friends!'}/>
+            </div>
             </div>
         </div>
     )

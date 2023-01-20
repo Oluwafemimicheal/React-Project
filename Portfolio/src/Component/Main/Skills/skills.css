@@ -45,8 +45,8 @@
 
 .card-con .sk-card {
     position: absolute;
-    width: 20rem;
-    height: 20rem;
+    width: 230px;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,12 +70,12 @@
 }
 
 .card-con .sk-card:nth-child(3) {
-    top: 54%;
+    top: 58%;
     left: 52%;
 }
 
 .card-con .sk-card:nth-child(4) {
-    top: 44%;
+    top: 48%;
     left: 0%;
 }
 
