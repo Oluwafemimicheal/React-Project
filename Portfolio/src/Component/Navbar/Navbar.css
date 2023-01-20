@@ -1,7 +1,7 @@
 @media(max-width:700px) {
     .container-active {
         position: relative;
-        height: 20vh;
+        height: 30vh;
     }
     .container .row {
         position: relative;
@@ -9,13 +9,14 @@
         justify-content: space-between;
         align-items: flex-start;
     }
-    .row .navbar {
+    .container-active .row .navbar {
         position: absolute;
         top: 120%;
-        left: 0%;
+        left: -3%;
+        line-height: 2;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         flex-direction: column;
     }
 }

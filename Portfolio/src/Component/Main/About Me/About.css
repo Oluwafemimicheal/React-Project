@@ -72,15 +72,26 @@
         width: 95%;
         margin: 20px auto;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
+    #About .image {
+        flex: none;
+    }
     #About .image .box {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
     #About .About-detail * {
+        font-size: 22px;
         text-align: left;
         line-height: 1.2;
+    }
+    #About .About-detail h1 {
+        font-size: 50px;
+    }
+    #About .About-detail span {
+        font-size: 30px;
     }
     #About .About-detail button {
         padding: 5px;

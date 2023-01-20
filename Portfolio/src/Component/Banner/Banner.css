@@ -1,11 +1,17 @@
 @media(max-width: 700px) {
-    .Banner-container {
-        width: 100%;
-        margin: auto;
-    }
     .container {
         width: 90%;
         margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .Banner-container {
+        background: url('../Main/image/Self.png') no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .Banner-container .overlay {
+        background-color: rgba(0, 0, 0, 0.916);
     }
     .row1 {
         position: relative;
@@ -14,19 +20,27 @@
         align-items: center;
     }
     .row1 .image {
-        position: absolute;
-        top: 0%;
-        left: 0%;
+        display: none;
     }
     .detail {
+        gap: 0.5rem;
         margin: 150px 0%;
     }
     .detail h1 {
-        font-size: 35px;
+        font-size: 70px;
         font-family: 'Poppins', sans-serif;
         letter-spacing: normal;
     }
     .detail h3 {
-        font-size: 25px;
+        font-size: 50px;
+    }
+    .detail h2 {
+        font-size: 30px;
+    }
+    .detail p {
+        font-size: 30px;
+    }
+    .detail a {
+        font-size: 30px;
     }
 }
