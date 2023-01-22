@@ -21,7 +21,7 @@ export const Navbar = () => {
             <div className="container">
                 <div className="row">
                     <div className="logo">
-                            <Icon.Person style={{fontSize: 35, color:'steelblue'}}/>
+                            <Icon.Person style={{fontSize: 25, color:'steelblue'}}/>
                     </div>
                     <ul className='navbar'>
                         <li><Link to='Home' smooth={true} duration={1000}>Home</Link></li>
@@ -32,7 +32,7 @@ export const Navbar = () => {
                         <li><Link to='Contact'smooth={true} duration={1000}>Contact</Link></li>
                     </ul>
                     <div className="menu">
-                        <Icon.MenuDown/>
+                        <Icon.MenuDown style={{fontSize: 25, color:'steelblue'}}/>
                     </div>
                 </div>
             </div>

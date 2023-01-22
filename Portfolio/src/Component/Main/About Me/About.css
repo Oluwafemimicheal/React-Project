@@ -79,19 +79,19 @@
         flex: none;
     }
     #About .image .box {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
     }
     #About .About-detail * {
-        font-size: 22px;
+        font-size: 14px;
         text-align: left;
-        line-height: 1.2;
     }
     #About .About-detail h1 {
-        font-size: 50px;
+        font-size: 25px;
     }
     #About .About-detail span {
-        font-size: 30px;
+        font-size: 20px;
     }
     #About .About-detail button {
         padding: 5px;

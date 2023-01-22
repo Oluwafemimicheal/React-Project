@@ -16,7 +16,7 @@ const Footer= () => {
              <i><Github style={style}/></i>
         </div>
         <div className="header">
-            <p style={{fontSize: 18}}>Designed by Oluwafemi Micheal &copy;2023!</p>
+            <p>Designed by Oluwafemi Micheal &copy;2023!</p>
         </div>
       </footer>
     )

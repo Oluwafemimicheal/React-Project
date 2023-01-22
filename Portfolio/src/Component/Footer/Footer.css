@@ -30,23 +30,20 @@ footer .social-media i {
         transform: none;
         background-color: transparent;
     }
-    .header p {
-        width: 100%;
-        font-size: 1rem;
+    footer .social-media i {
+        width: 20%;
+        transform: scale(0.8);
+        margin: 0% 8px;
     }
-    form {
-        width: 100%;
-        overflow: hidden;
-    }
-    form textarea {
-        width: 100%;
-        resize: none;
-    }
-    form .row {
-        flex-direction: column;
-    }
-    .header {
+    footer .header {
         width: 100%;
         margin: auto;
+        align-items: center;
+    }
+    footer .header p {
+        font-size: 13px;
+        margin: 0%;
+        margin-bottom: 20px;
+        color: rgb(59, 59, 59);
     }
 }

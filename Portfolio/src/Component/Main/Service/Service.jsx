@@ -24,7 +24,7 @@ const Service = () =>{
                 text2={'Coral draw, Photoshop, Adobe-illustrator'}/>
                 </div>
                 <div className="s-card">
-                <Card image={Code} text1={'FRONTEND DEVELOPER'} text2={'Html, Css 3, Javascript, React.js, Bootstrap 5'}/>
+                <Card image={Code} text1={'FRONTEND DEV'} text2={'Html, Css 3, Javascript, React.js, Bootstrap 5'}/>
                 </div>
                 <div className="s-card">
                 <Card image={Social} text1={'SOCIAL-MEDIA ADS'} text2={'Facebook,Instagram, WhatApp, Youtube'}/>

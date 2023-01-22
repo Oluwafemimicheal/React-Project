@@ -122,12 +122,49 @@
         width: 90%;
         margin: 20px auto;
         flex-direction: column;
-        height: 70vh;
-    }
-    .service .s-right {
-        flex: 1;
     }
     .service .s-left {
         flex: none;
+        gap: 0%;
+    }
+    .s-card {
+        width: 45%;
+        height: 46%;
+    }
+    .s-left span:nth-child(1) {
+        font-size: 28px;
+    }
+    .s-left span:nth-child(3) {
+        font-size: 15px;
+    }
+    .s-left span:nth-child(2) {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .s-left button {
+        font-size: 12px;
+    }
+    .ser-card {
+        gap: 0%;
+    }
+    .ser-card span:nth-child(2) {
+        font-size: 12px;
+        padding: 2px 0%;
+    }
+    .ser-card span:nth-child(3) {
+        font-size: 10px;
+        padding: 2px 0%;
+    }
+    .ser-card button {
+        font-size: 10px;
+    }
+    .s-card:nth-child(2) {
+        top: 0%;
+    }
+    .s-card:nth-child(3) {
+        top: 23%;
+    }
+    .s-card:nth-child(4) {
+        top: 48%;
     }
 }

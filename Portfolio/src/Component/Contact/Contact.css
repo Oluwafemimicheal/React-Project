@@ -1,8 +1,7 @@
 form {
-    width: 60%;
+    width: 70%;
     margin: 15px auto;
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -10,7 +9,11 @@ form div {
     margin-top: 5px;
 }
 
-input,
+.header h1 {
+    border-bottom: none;
+}
+
+form input,
 textarea {
     margin: 5px 0%;
     width: 100%;
@@ -22,7 +25,7 @@ textarea {
     border: none;
 }
 
-input:focus,
+form input:focus,
 textarea:focus {
     background-color: white;
     box-shadow: 0 0 5px 0 gray;
@@ -36,4 +39,30 @@ input::placeholder,
 textarea::placeholder {
     color: rgb(202, 202, 202);
     font-size: 15px;
+}
+
+@media(max-width: 700px) {
+    .container {
+        width: 95%;
+    }
+    .header {
+        width: 100%;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+    .header h1 {
+        font-size: 28px;
+        border-bottom: none;
+    }
+    .header p {
+        margin: 0%;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    form {
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
 }
