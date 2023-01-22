@@ -1,4 +1,7 @@
 @media(max-width:700px) {
+    .Navbar-container {
+        top: 0%;
+    }
     .container {
         width: 95%;
         margin: auto;

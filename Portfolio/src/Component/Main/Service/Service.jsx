@@ -12,7 +12,7 @@ const Service = () =>{
             <div className="s-left">
                 <span>My Awesome</span>
                 <span>Service</span>
-                <span>This are some of my service that i offer some of my client across the world both online and office works!</span>
+                <span>These are some of the services I provide to clients worldwide, including both office work and online work.</span>
                 <button><a href={Resume}>Download CV</a></button>
             </div>
             <div className="s-right">

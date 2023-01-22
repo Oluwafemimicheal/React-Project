@@ -9,17 +9,17 @@ const Project = ()=>{
             <div className="p-left">
                 <span>My Project</span>
                 <span>Expand Knowledge</span>
-                <span>Some Project which i have built so far with my ideal and Knowledge, while on internship! </span>
+                <span>Some projects that I've made thus far using my knowledge and ideals while interning!</span>
             </div>
             <div className="p-right">
                 <div className="p-card">
-                    <ProjectCard image={pImage1} Title='Work Attendance Book' text={'Work Attendance book is where the staff sign-in and sign out for the daily work been done and also it help to calculate the day the staff was present and absent at work also give the account of the staff salary at the end of every month!'}/>
+                    <ProjectCard image={pImage1} Title='Work Attendance Book' text={"The work attendance book is the place where employees sign in and out for the daily work completed. It also helps to compute the days that employees were present and absent from work and provides an account of employees' salaries at the end of each month."}/>
                 </div>
                 <div className="p-card">
-                    <ProjectCard image={pImage1} Title='Friend Card' text={'friend Card help you to save your friend details on cloud and to write some things special about your friend and also choose the category of friend that He/She is, among your friends!'}/>
+                    <ProjectCard image={pImage1} Title='Friend Card' text={'Friend Cards enable you to make personal notes about your friends, keep their information in the cloud, and select the type of friend they fall under.'}/>
                 </div>
                 <div className="p-card">
-                    <ProjectCard image={pImage1} Title='Bookstore' text={'This help you to store all your favorite books you have interest on read online and help you store them in your specific category store on did App!'}/>
+                    <ProjectCard image={pImage1} Title='Bookstore' text={'This allows you to save all of your favorite books that you want to read online in your own category store on the Did App!'}/>
                 </div>
             </div>
         </div>

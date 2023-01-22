@@ -12,7 +12,7 @@ const Skills = () => {
       <div className="s-header">
           <h1>Skills</h1>
           <span>Internship Training</span>
-          <span>This is some of the experience which in have gather for some years to start and to continue my frontend develope skill</span>
+          <span>This is part of the experience I've gained over the years in order to begin and continue developing my frontend skills.</span>
       </div>
       <div className="card-con">
         <div className="sk-card" >
