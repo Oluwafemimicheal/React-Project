@@ -1,30 +1,80 @@
+.Navbar-container {
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0%;
+    z-index: 999;
+}
+
+.Navbar-container a {
+    color: white;
+}
+
+.Navbar-active {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    z-index: 99;
+    box-shadow: 0 0 4px 0 gray;
+    background-color: rgb(255, 255, 255);
+    transition: 0.2s linear;
+}
+
+.nav-btn {
+    display: none;
+    padding: 3px;
+}
+
+.nav-btn:hover {
+    background-color: transparent;
+}
+
 @media(max-width:700px) {
-    .Navbar-container {
-        top: 0% !important;
+    .navbar {
+        display: none;
     }
-    .container {
-        width: 95%;
-        margin: auto;
+    .nav-bar {
+        display: flex;
     }
     .container-active {
+        padding: 5px 10px;
         position: relative;
-        height: 30vh;
-    }
-    .container .row {
-        position: relative;
-        height: 20px;
-        margin: 5px 10%;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .container-active .row .navbar {
-        position: absolute;
-        top: 120%;
-        left: -3%;
-        line-height: 2;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
         flex-direction: column;
+    }
+    .container-active .row {
+        align-items: flex-start;
+    }
+    .responsive-bar {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0%;
+        left: 0%;
+        flex-direction: column;
+        color: white !important;
+        background-color: steelblue;
+        transition: 0.3s linear;
+        transform: translateY(-0%);
+    }
+    .responsive-bar .navbar {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        gap: 15px;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+    }
+    .responsive-bar .navbar li a {
+        color: white;
+    }
+    .responsive-bar .nav-close-btn {
+        display: flex;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        background-color: white;
     }
 }

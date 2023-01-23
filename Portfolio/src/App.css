@@ -105,48 +105,8 @@ section {
 /* small screen */
 
 .menu {
-    display: none;
+    display: flex;
     font-size: 30px;
-}
-
-
-/* Navbar css */
-
-.Navbar-container {
-    position: fixed;
-    width: 100%;
-    top: 3%;
-    left: 0%;
-    z-index: 999;
-}
-
-.Navbar-container a {
-    color: white;
-}
-
-.Navbar-active {
-    position: fixed;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    box-shadow: 0 0 4px 0 gray;
-    z-index: 999;
-    background-color: rgb(255, 255, 255);
-    transition: 0.3s linear;
-    transform: translateZ(0%);
-}
-
-@media(max-width: 700px) {
-    .menu {
-        display: block;
-        color: white;
-    }
-    .Navbar-active .menu {
-        color: black;
-    }
-    .navbar {
-        display: none;
-    }
 }
 
 
