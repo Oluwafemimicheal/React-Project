@@ -1,0 +1,76 @@
+.message {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(31, 31, 31, 0.919);
+    transition: 0.3s;
+    animation: meg 0.3s linear;
+    z-index: 9999;
+}
+
+@keyframes meg {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.message .m-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    height: 30vh;
+    line-height: 1;
+    border-radius: 10px;
+}
+
+.message .m-text h1 {
+    color: steelblue;
+}
+
+.message .m-text p {
+    font-size: 22px;
+    color: rgb(70, 70, 70);
+}
+
+.message .m-text .btn {
+    position: absolute;
+    top: -80%;
+    right: -60%;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+@media(max-width: 700px) {
+    .message .m-text {
+        width: 80%;
+    }
+    .message .m-text .btn {
+        position: absolute;
+        top: -85%;
+        left: 35%;
+        border: none;
+        cursor: pointer;
+        font-size: 30px;
+        color: white;
+    }
+}
