@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className= 'container'>
                 <div className="row">
                     <div className="logo">
-                            < FaUser style={{fontSize: 25, color:'steelblue'}}/>
+                            <span>OM</span>
                     </div>
                     <nav ref={navRef}>
                     <ul className= 'navbar'>

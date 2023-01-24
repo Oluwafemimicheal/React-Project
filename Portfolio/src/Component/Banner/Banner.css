@@ -1,3 +1,7 @@
+.span {
+    display: none;
+}
+
 @media(max-width: 700px) {
     .container {
         margin: auto;
@@ -5,12 +9,11 @@
         align-items: center;
     }
     .Banner-container {
-        background: url('../Main/image/Self.png') no-repeat;
-        background-position: center;
-        background-size: 80%;
+        background: url('../Main/image/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg') no-repeat;
+        background-size: cover;
     }
     .Banner-container .overlay {
-        background-color: rgba(0, 0, 0, 0.967);
+        background-color: rgba(19, 10, 10, 0.833);
     }
     .row1 {
         position: relative;
@@ -26,17 +29,37 @@
         margin: 0%;
     }
     .detail h1 {
-        font-size: 35px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: bold;
-        letter-spacing: 2px;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+    .span {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        background-color: rgba(19, 10, 10, 0.04);
+        box-shadow: 5px 0 0 0px steelblue;
+        animation: span 4s infinite;
+        z-index: 2;
+    }
+    @keyframes span {
+        0% {
+            transform: translateY(-0%);
+        }
+        100% {
+            box-shadow: 0 0 0 5px steelblue;
+            transform: translateY(50%);
+        }
     }
     .detail h3 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .detail h2 {
-        font-size: 16px;
-        background-color: transparent;
+        font-size: 20px;
     }
     .detail p {
         line-height: 1.3;

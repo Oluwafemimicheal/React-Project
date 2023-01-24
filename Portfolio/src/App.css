@@ -113,8 +113,13 @@ section {
 /* Banner css */
 
 .Banner-container {
-    background: rgb(0, 0, 0);
-    background-size: 100%;
+    background: url(../src/Component/Main/image/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Banner-container .overlay {
+    background-color: rgba(0, 0, 0, 0.581);
 }
 
 .banner {
