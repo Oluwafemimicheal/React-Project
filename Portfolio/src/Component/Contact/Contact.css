@@ -15,20 +15,22 @@ form div {
 
 form input,
 textarea {
-    margin: 5px 0%;
+    margin: 5px 0;
     width: 100%;
     padding: 5px;
-    background-color: steelblue;
+    background-color: white;
     color: steelblue;
     font-size: 18px;
     outline: none;
-    border: none;
+    border: 2px solid steelblue;
+    border-radius: 5px;
+    resize: none;
 }
 
 form input:focus,
 textarea:focus {
-    background-color: white;
-    box-shadow: 0 0 5px 0 gray;
+    background-color: rgb(255, 243, 243);
+    box-shadow: 0 0 4px 0 steelblue;
 }
 
 input:nth-child(1) {
