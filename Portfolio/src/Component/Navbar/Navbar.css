@@ -67,7 +67,6 @@
         color: white !important;
         background-color: steelblue;
         transition: 0.3s linear;
-        transform: translateY(-0%);
     }
     .responsive-bar .navbar {
         position: absolute;
@@ -84,8 +83,8 @@
     .responsive-bar .nav-close-btn {
         display: flex;
         position: absolute;
-        top: 0%;
-        right: 0%;
+        top: 3%;
+        right: 3%;
         background-color: white;
     }
 }
