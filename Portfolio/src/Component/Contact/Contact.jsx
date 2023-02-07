@@ -3,7 +3,7 @@ import './Contact.css'
 const Contact = () => {
 
     return (
-        <section  name='Contact' className='container' >
+        <section  name='Contact' className='container contact' >
             <div className="header"> 
                 <h1>Get in touch</h1>
                 <p>Although I'm currently looking for a opportunities, my inbox is always open. 
@@ -14,8 +14,8 @@ const Contact = () => {
                         <input type="text"  name='user_name' placeholder=' Enter your Full name' required/>
                         <input type="email" name='user_email' placeholder='Enter your Email' required />
                     <textarea name='message' cols="30" rows="10"></textarea>
+                 <button type="submit" value="Send" className='btn' >Send</button>
                 </form>
-                 <button type="submit" value="Send" >Send</button>
             </div>
         </section>
     );
