@@ -54,6 +54,7 @@ textarea::placeholder {
 @media(max-width: 700px) {
     .container {
         width: 95%;
+        margin: auto;
     }
     .header {
         width: 100%;
@@ -70,9 +71,8 @@ textarea::placeholder {
         margin-bottom: 20px;
         font-size: 15px;
     }
-    form {
-        display: flex;
+    form input,
+    textarea {
         width: 100%;
-        margin: auto;
     }
 }
