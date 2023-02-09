@@ -30,12 +30,12 @@ const Navbar = () => {
                     </div>
                     <nav ref={navRef}>
                     <ul className= 'navbar'>
-                        <li><Link to='Home' smooth={true} duration={1000} onClick={showNav}>Home</Link></li>
-                        <li><Link to='About' smooth={true} duration={1000} onClick={showNav}>About</Link></li>
-                        <li><Link to='Skill'smooth={true} duration={1000} onClick={showNav}>Skills</Link></li>
-                        <li><Link to='Service'smooth={true} duration={1000} onClick={showNav}>Service</Link></li>
-                        <li><Link to='Project'smooth={true} duration={1000} onClick={showNav}>Project</Link></li>
-                        <li><Link to='Contact'smooth={true} duration={1000} onClick={showNav}>Contact</Link></li>
+                        <li><Link to='Home'spy={true} activeClass='activeClass' smooth={true} duration={1000} onClick={showNav}>Home</Link></li>
+                        <li><Link to='About' spy={true}  smooth={true} duration={1000} onClick={showNav}>About</Link></li>
+                        <li><Link to='Skill' spy={true}  smooth={true} duration={1000} onClick={showNav}>Skills</Link></li>
+                        <li><Link to='Service' spy={true}  smooth={true} duration={1000} onClick={showNav}>Service</Link></li>
+                        <li><Link to='Project' spy={true}  smooth={true} duration={1000} onClick={showNav}>Project</Link></li>
+                        <li><Link to='Contact' spy={true}  smooth={true} duration={1000} onClick={showNav}>Contact</Link></li>
                     </ul>
                     <button onClick={showNav} className='nav-btn nav-close-btn'>
                         <FaTimes style={{fontSize: 20, color:'steelblue'}}/>
