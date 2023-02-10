@@ -5,7 +5,7 @@ import bgImage from '../Main/image/bg-image.png'
 import './Banner.css'
 import Message from '../massage/message';
 import{FaWhatsapp, FaTimes, FaCode} from 'react-icons/fa'
-import {motion} from 'farmer-motion'
+import {motion} from 'framer-motion'
 
 
 const Banner = () => {
@@ -22,14 +22,15 @@ const Banner = () => {
                             initial={{left:'-30%'}}
                             whileInView={{left: '-10%'}}
                             transition={transition}
-                        className="detail">
+                            className="detail">
                             <h3>Hello, I'M</h3>
                             <h1>OLUWAFEMI <br/> MICHEAL</h1>
                             <h2>FRONTEND DEVELOPER</h2>
                             <p>I'm a Front-end developer, specializing in building 
                             (and occasionally designing), I enjoy creating things that live on the internet</p>
                             <button onClick={()=> setMegPop(true)}>Let's Connect <ArrowDown style={{fontSize:15}}/></button>
-                        </div>
+                        </motion.div>
+                
                         <div className="image">
                             <img src={bgImage} alt="" className='bg'/>
                             <img src={Self} alt='Loading' className='self-image'/>
