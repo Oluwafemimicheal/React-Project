@@ -75,4 +75,7 @@ textarea::placeholder {
     textarea {
         width: 100%;
     }
+    textarea {
+        height: 5vh;
+    }
 }
