@@ -1,0 +1,35 @@
+section {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .text {
+    flex: 1 1 0;
+    text-align: left;
+    line-height: 2;
+}
+
+.about .text h1 {
+    font-size: 2.5rem;
+    line-height: 0.5;
+}
+
+.about .text h3 {
+    font-size: 2rem;
+}
+
+.about .text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about .image {
+    flex: 1;
+}
