@@ -4,14 +4,17 @@
 }
 
 .banner {
+    margin: 2rem 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 90vh;
 }
 
 .banner .text {
-    display: block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
     flex: 1;
 }
 
