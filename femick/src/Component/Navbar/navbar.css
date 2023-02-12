@@ -1,0 +1,28 @@
+.h-container {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 4px 0 gray;
+    padding: 0.5rem;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    background-color: navy;
+    color: white;
+    padding: 2px;
+}
+
+.header nav {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

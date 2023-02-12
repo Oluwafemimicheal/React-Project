@@ -1,0 +1,38 @@
+.b-container {
+    width: 90%;
+    margin: auto;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+.banner .text {
+    display: block;
+    flex: 1;
+}
+
+.banner .text h1 {
+    margin: 10px 0 0 0;
+}
+
+.banner .text p {
+    margin-bottom: 10px;
+    line-height: 1.1;
+    margin: 0 0 10px 0;
+    color: rgb(71, 71, 71);
+}
+
+.banner .image {
+    flex: 1;
+    background-color: gray;
+    width: 50%;
+    height: 70vh;
+}
+
+.banner .text .btn {
+    margin: 20px 0;
+}
