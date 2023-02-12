@@ -7,7 +7,7 @@ import './banner.css'
             <div className="banner">
                 <div className="text">
                     <div>
-                    <h1>Femick Graphics Design</h1>
+                    <h1>Femick Graphics<br/> Design</h1>
                     <p>Creative in all Design and UI & UX</p>
                     </div>
                     <div>
