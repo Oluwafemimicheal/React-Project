@@ -14,7 +14,7 @@ import './about.css'
                     <button type="button">Learn More!</button>
                 </div>
                 <div className="image">
-                    <img src={aboutPic} alt="" />
+                    <img src={aboutPic} alt=""/>
                 </div>
             </div>  
             </div>

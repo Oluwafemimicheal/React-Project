@@ -3,12 +3,16 @@
     margin: auto;
 }
 
+.banner-con {
+    background-color: rgb(226, 226, 226);
+}
+
 .banner {
     margin: 2rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
 }
 
 .banner .text {
@@ -40,9 +44,9 @@
 
 .banner .image {
     flex: 1;
-    background-color: gray;
-    width: 50%;
-    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner .text .btn {
