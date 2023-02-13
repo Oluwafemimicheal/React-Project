@@ -8,7 +8,7 @@ const Project = ()=>{
         <div className="project" id='Project'>
             <div className="p-left">
                 <span>My Project</span>
-                <span>Expand Knowledge</span>
+                <span>Expand Knowledge</span> 
                 <span>Some projects that I've made thus far using my knowledge and ideals while interning!</span>
             </div>
             <div className="p-right">
