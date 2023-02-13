@@ -4,6 +4,7 @@
     margin: 20px auto;
     display: flex;
     height: 90vh;
+    overflow: hidden;
 }
 
 .service .s-left {
@@ -162,11 +163,14 @@
     }
     .s-card:nth-child(2) {
         top: 10%;
+        left: 47%
     }
     .s-card:nth-child(3) {
         top: 23%;
+        left: 1%
     }
     .s-card:nth-child(4) {
         top: 40%;
+        left: 47%
     }
 }

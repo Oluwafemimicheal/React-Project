@@ -58,9 +58,10 @@ textarea::placeholder {
     }
     .header {
         width: 100%;
-        justify-content: flex-end;
-        align-items: flex-end;
-        text-align: right;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left
+        ;
     }
     .header h1 {
         font-size: 28px;
