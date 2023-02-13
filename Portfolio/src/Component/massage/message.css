@@ -40,12 +40,16 @@
     color: steelblue;
 }
 
+.remove {
+    background-color: transparent;
+}
+
 .message .m-text p {
     font-size: 22px;
     color: rgb(70, 70, 70);
 }
 
-.message .m-text .btn {
+.message .m-text .remove {
     position: absolute;
     top: -80%;
     right: -60%;
@@ -64,7 +68,7 @@
     .message .m-text {
         width: 80%;
     }
-    .message .m-text .btn {
+    .message .m-text .remove {
         position: absolute;
         top: -85%;
         left: 35%;

@@ -38,11 +38,11 @@ const Banner = () => {
                     </div>
                 </div>
             <Message trigger={megPop}>
-            <FaWhatsapp style={{fontSize: 50, color: 'green'}}/>
-            <button className='btn' onClick={()=> setMegPop(false)}><FaTimes/></button>
-            <p>Hy, Friend let start chatting!</p>
-              <h1>09163657267</h1>
-              <button className='button'>Let's Chat</button>
+                <FaWhatsapp style={{fontSize: 50, color: 'green'}}/>
+                <button className='remove' onClick={()=> setMegPop(false)}><FaTimes/></button>
+                <p>Hy, Friend let start chatting!</p>
+                <h1>09163657267</h1>
+                <button className='button'>Let's Chat</button>
             </Message>
             </div>
         </div>

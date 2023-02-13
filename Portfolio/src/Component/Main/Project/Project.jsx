@@ -13,7 +13,7 @@ const Project = ()=>{
             </div>
             <div className="p-right">
                 <div className="p-card">
-                    <ProjectCard image={pImage1} Title='Work Attendance Book' text={"The work attendance book is the place where employees sign in and out for the daily work completed. It also helps to compute the days that employees were present and absent from work and provides an account of employees' salaries at the end of each month."}/>
+                    <ProjectCard image={pImage1} Title='Work Attendance Book' text={"The work attendance book is the place where employees sign in and out for the daily work completed."}/>
                 </div>
                 <div className="p-card">
                     <ProjectCard image={pImage1} Title='Friend Card' text={'Friend Cards enable you to make personal notes about your friends, keep their information in the cloud, and select the type of friend they fall under.'}/>
