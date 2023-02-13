@@ -60,8 +60,7 @@ textarea::placeholder {
         width: 100%;
         justify-content: flex-start;
         align-items: flex-start;
-        text-align: left
-        ;
+        text-align: left;
     }
     .header h1 {
         font-size: 28px;
@@ -71,6 +70,7 @@ textarea::placeholder {
         margin: 0%;
         margin-bottom: 20px;
         font-size: 15px;
+        width: 90%;
     }
     form input,
     textarea {
