@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css'
 
-const ProjectCard = ({image,Title,text}) => {
+const ProjectCard = ({image,Title,text,set}) => {
     return (
         <div className='projectCard'>
             <div className="p-image">
@@ -13,7 +13,7 @@ const ProjectCard = ({image,Title,text}) => {
             </div>
             <div className="btn">
                 <button>Github</button>
-                <button onClick={()=> setMegPop(true)}>Demo</button>
+                <button onClick={()=> set(true)}>Demo</button>
             </div>
         </div>
     );
