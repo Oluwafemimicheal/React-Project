@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ProjectCard from './ProjectCard'
 import './Project.css'
 import Catering from '../image/Catering Website.png'
 import Attendance from '../image/Attendance.png'
 import UrlPicker from '../image/Url Picker.png'
-import Message from '../massage/message';
+import Message from '../../massage/message';
+import { FaTimes } from 'react-icons/fa'
 
 const Project = ()=>{ 
     const[ megPop, setMegPop] = useState(false)
@@ -27,7 +28,6 @@ const Project = ()=>{
                 </div>
             </div>
             <Message trigger={megPop}>
-                <FaWhatsapp style={{fontSize: 50, color: 'green'}}/>
                 <button className='remove' onClick={()=> setMegPop(false)}><FaTimes/></button>
                 <p>Hy, Friend let start chatting!</p>
                 <h1>09163657267</h1>
