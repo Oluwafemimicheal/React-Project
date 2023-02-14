@@ -7,7 +7,7 @@ import UrlPicker from '../image/Url Picker.png'
 import Message from '../../massage/message';
 import { FaTimes } from 'react-icons/fa'
 
-const Project = ()=>{ 
+const Project = ({setMegPop='setMegPop'})=>{ 
     const[ megPop, setMegPop] = useState(false)
     return(
         <div className="project" id='Project'>
@@ -29,8 +29,7 @@ const Project = ()=>{
             </div>
             <Message trigger={megPop}>
                 <button className='remove' onClick={()=> setMegPop(false)}><FaTimes/></button>
-                <p>Hy, Friend let start chatting!</p>
-                <h1>09163657267</h1>
+                <img src={} alt="" />
                 <button className='button'>Let's Chat</button>
             </Message>
         </div>
