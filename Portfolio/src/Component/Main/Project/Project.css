@@ -96,8 +96,10 @@
         background-color: transparent;
     }
     
-    .projectCard .btn button {
-        cursor: pointer;
+    .projectCard .btn a {
+       padding: 10px 15px;
+       background-color: white;
+       color: black;
     }
     
     @media(max-width:700px) {

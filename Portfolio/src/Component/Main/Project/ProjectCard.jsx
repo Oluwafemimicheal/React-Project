@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css'
 
-const ProjectCard = ({image,Title,text,set}) => {
+const ProjectCard = ({image,Title,text,Github,Demo}) => {
     return (
         <div className='projectCard'>
             <div className="p-image">
@@ -12,8 +12,8 @@ const ProjectCard = ({image,Title,text,set}) => {
             <span>{text}</span>
             </div>
             <div className="btn">
-                <button>Github</button>
-                <button onClick={()=> set(true)}>Demo</button>
+              <a href={Github}>Github</a>
+              <a href={Demo}>Demo</a>
             </div>
         </div>
     );
