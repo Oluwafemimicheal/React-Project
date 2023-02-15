@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const tasks = require('./routes/tasks')
 
 
 
@@ -7,6 +8,8 @@ const app = express()
 app.get('/', (req, res) => {
     res.send('Task Manager')
 })
+
+app.use('/api/vi/tasks', tasks)
 
 // app.get('/api/v1/tasks')        - get all the tasks
 // app.post('/api/v1/tasks')       - create a new tasks
