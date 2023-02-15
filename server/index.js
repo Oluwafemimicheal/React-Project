@@ -5,7 +5,8 @@ import mongoose from 'mongoose'
 const app = express()
 dotenv.config()
 
-
-app.listen(process.env.port, (req, res) => {
-    res.send(console.log('server is working'))
+app.get('/', (req, res) => {
+    res.send('Task manager')
 })
+
+app.listen(process.env.port, console.log('Service listing'))
