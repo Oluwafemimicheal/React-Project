@@ -8,6 +8,9 @@ const tasks = require('./routes/tasks')
 app.get('/', (req, res) => {
     res.send('Task Manager')
 })
+app.get('/oluwafemi', (req, res) => {
+    res.send('Nice job so far ...')
+})
 
 app.use('/api/v1/tasks', tasks)
 
