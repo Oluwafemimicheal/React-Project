@@ -1,14 +1,21 @@
-import express from 'express'
-import dotenv from 'dotenv'
-import mongoose from 'mongoose'
-import tasks from './routes/tasks'
-
+const express = require('express')
 const app = express()
-dotenv.config()
 
+
+
+// routes
 app.get('/', (req, res) => {
-    res.send(tasks)
+    res.send('Task Manager')
 })
 
+// app.get('/api/v1/tasks')        - get all the tasks
+// app.post('/api/v1/tasks')       - create a new tasks
+// app.get('/api/v1/tasks/:id')    - get single task
+// app.patch('/api/v1/tasks/:id')  - update tasks
+// app.delete('/api/v1/tasks/:id') - delete task
 
-app.listen(process.env.port, console.log('Service listing'))
+
+
+const port = 3000
+
+app.listen(port, console.log(`Server working on ${port}...`))
