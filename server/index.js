@@ -6,11 +6,9 @@ import tasks from './routes/tasks'
 const app = express()
 dotenv.config()
 
-app.use(express.json())
 app.get('/', (req, res) => {
-    res.send('Task manager')
+    res.send(tasks)
 })
 
-app.use('api/vi/tasks', tasks)
 
 app.listen(process.env.port, console.log('Service listing'))
