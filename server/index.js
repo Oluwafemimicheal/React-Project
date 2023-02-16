@@ -13,4 +13,12 @@ app.use('/api/v1/tasks', tasks)
 
 
 const PORT = process.env.port
-app.listen(PORT, console.log(`Server is now working on ${PORT}...`))
+
+const start = async() => {
+    try {
+        await connectDB()
+        app.listen(PORT, console.log(`Server is now working on ${PORT}...`))
+    } catch (error) {
+        console.log(error)
+    }
+}
