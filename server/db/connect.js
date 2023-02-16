@@ -1,6 +1,8 @@
   const mongoose = require('mongoose')
+  const dotenv = require('dotenv')
+  dotenv.config()
 
-  const connectionString = 'mongodb+srv://oluwafemi:young4410@cluster0.kau0vbk.mongodb.net/TASK-MANAGER?retryWrites=true&w=majority'
+  const connect = process.env.MONGO_CONNECTION
 
   mongoose.set('strictQuery', false)
-  mongoose.connect(connectionString).then(() => console.log('CONNECTED TO THE DB...')).catch((err) => console.log(err))
+  mongoose.connect(connect).then(() => console.log('CONNECTED TO THE DB...')).catch((err) => console.log(err))
