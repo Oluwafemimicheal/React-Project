@@ -16,9 +16,11 @@ const PORT = process.env.port
 
 const start = async() => {
     try {
-        await connectDB()
+        await connectDB
         app.listen(PORT, console.log(`Server is now working on ${PORT}...`))
     } catch (error) {
         console.log(error)
     }
 }
+
+start()
