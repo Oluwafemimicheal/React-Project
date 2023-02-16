@@ -105,6 +105,11 @@
     display: none;
 }
 
+.remove:hover {
+    background-color: transparent;
+    box-shadow: none;
+}
+
 @media(max-width: 700px) {
     .container {
         margin: auto;
