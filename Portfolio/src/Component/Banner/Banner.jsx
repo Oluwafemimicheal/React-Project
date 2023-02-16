@@ -41,7 +41,7 @@ const Banner = () => {
                 <FaWhatsapp style={{fontSize: 50, color: 'green'}}/>
                 <button className='remove' onClick={()=> setMegPop(false)}><FaTimes/></button>
                 <p>Hy, Friend let start chatting!</p>
-                <a href="https://api.whatsapp.com/send?phone+2349163657267"> Let's Chat </a>
+                <a href="https://api.whatsapp.com/send?phone+2349163657267" target='_blank' rel="noreferrer" > Let's Chat &#8594;</a>
             </Message>
             </div>
         </div>
