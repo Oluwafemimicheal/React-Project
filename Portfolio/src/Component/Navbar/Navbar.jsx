@@ -24,7 +24,7 @@ const Navbar = () => {
     return (
        <nav className={nav ? 'Navbar-active' : 'Navbar-container'}>
             <div className= 'container'>
-                <div className="row">
+                <div className="nav-row">
                     <div className="logo">
                             <span>OM</span>
                     </div>

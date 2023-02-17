@@ -78,17 +78,17 @@
 }
 
 .s-card:nth-child(2) {
-    top: -3%;
+    top: 0%;
     left: 45%;
 }
 
 .s-card:nth-child(3) {
-    top: 30%;
+    top: 25%;
     left: -3%;
 }
 
 .s-card:nth-child(4) {
-    bottom: -2%;
+    bottom: -10%;
     left: 45%;
 }
 

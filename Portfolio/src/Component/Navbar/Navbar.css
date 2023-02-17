@@ -6,6 +6,12 @@
     z-index: 999;
 }
 
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .Navbar-container a {
     color: white;
 }

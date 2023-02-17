@@ -8,7 +8,7 @@ import UrlPicker from '../image/Url Picker.png'
 
 const Project = () => {
     return(
-        <div className="project" id='Project'>
+        <section className="project" id='Project'>
             <div className="p-left">
                 <span>My Project</span>
                 <span>Expand Knowledge</span> 
@@ -25,7 +25,7 @@ const Project = () => {
                     <ProjectCard image={UrlPicker} Title='Chrome Extension/Url-Picker' text={'This allows you to save all of your favorite books that you want to read online in your own category store on the Did App!'} Github='https://github.com/Oluwafemimicheal/Portfolio-Project/tree/main/Url%20Picker' Demo='click'/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default Project;
