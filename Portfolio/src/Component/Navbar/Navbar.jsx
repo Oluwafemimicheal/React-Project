@@ -25,7 +25,7 @@ const Navbar = () => {
        <nav className={nav ? 'Navbar-active' : 'Navbar-container'}>
             <div className= 'container'>
                 <div className="nav-row">
-                    <div className="logo">
+                    <div className="nav_logo">
                             <a href="#Home">OM</a>
                     </div>
                     <nav ref={navRef}>

@@ -1,3 +1,9 @@
+.nav_logo {
+    padding: 0.23rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
 .Navbar-container {
     position: fixed;
     width: 100%;
