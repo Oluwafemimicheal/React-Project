@@ -1,6 +1,7 @@
 .nav_logo {
     padding: 0.23rem;
     border-radius: 50%;
+    color: black;
     background-color: var(--primary-color);
 }
 
