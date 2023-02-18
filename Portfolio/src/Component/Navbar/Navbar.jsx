@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className= 'container'>
                 <div className="nav-row">
                     <div className="logo">
-                            <span>OM</span>
+                            <a href="#Home">OM</a>
                     </div>
                     <nav ref={navRef}>
                     <ul className= 'navbar'>
