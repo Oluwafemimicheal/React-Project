@@ -1,7 +1,7 @@
-.nav_logo a {
-    padding: 2rem;
-    border-radius: 50%;
+.nav_logo {
     background-color: black;
+    padding: 5px;
+    border-radius: 50%;
 }
 
 .Navbar-container {
@@ -26,11 +26,12 @@
     position: fixed;
     width: 100%;
     height: auto;
+    padding: 0.28rem 0;
     top: 0%;
     left: 0%;
     z-index: 99;
     box-shadow: 0 0 4px 0 gray;
-    background-color: rgb(255, 255, 255);
+    background-color: steelblue;
     transition: 0.2s linear;
 }
 
