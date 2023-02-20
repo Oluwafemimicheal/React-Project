@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const changeNav = ()=>{
         if(window.scrollY >= 100){
-            setNav(true)
+            setNav(true) 
         }else{
             setNav(false)
         }
@@ -18,7 +18,7 @@ const Navbar = () => {
     window.addEventListener('scroll', changeNav)
 
     const showNav = ()=>{
-        navRef.current.classList.toggle('responsive-bar')
+        navRef.current.classList.toggle('menu-bar')
        
     } 
     return (
@@ -29,17 +29,17 @@ const Navbar = () => {
                             <a href="#Home">OM</a>
                     </div>
                     <nav ref={navRef}>
-                    <ul className= 'navbar'>
-                        <li><Link to='Home'spy={true} activeClass='activeClass' smooth={true} duration={1000} onClick={showNav}>Home</Link></li>
-                        <li><Link to='About' spy={true}  smooth={true} duration={1000} onClick={showNav}>About</Link></li>
-                        <li><Link to='Skill' spy={true}  smooth={true} duration={1000} onClick={showNav}>Skills</Link></li>
-                        <li><Link to='Service' spy={true}  smooth={true} duration={1000} onClick={showNav}>Service</Link></li>
-                        <li><Link to='Project' spy={true}  smooth={true} duration={1000} onClick={showNav}>Project</Link></li>
-                        <li><Link to='Contact' spy={true}  smooth={true} duration={1000} onClick={showNav}>Contact</Link></li>
-                    </ul>
-                    <button onClick={showNav} className='nav-btn nav-close-btn'>
-                        <FaTimes style={{fontSize: 20, color:'steelblue'}}/>
-                    </button>
+                        <ul className= 'navbar'>
+                            <li><Link to='Home'spy={true} activeClass='activeClass' smooth={true} duration={1000} onClick={showNav}>Home</Link></li>
+                            <li><Link to='About' spy={true}  smooth={true} duration={1000} onClick={showNav}>About</Link></li>
+                            <li><Link to='Skill' spy={true}  smooth={true} duration={1000} onClick={showNav}>Skills</Link></li>
+                            <li><Link to='Service' spy={true}  smooth={true} duration={1000} onClick={showNav}>Service</Link></li>
+                            <li><Link to='Project' spy={true}  smooth={true} duration={1000} onClick={showNav}>Project</Link></li>
+                            <li><Link to='Contact' spy={true}  smooth={true} duration={1000} onClick={showNav}>Contact</Link></li>
+                        </ul>
+                        <button onClick={showNav} className='nav-btn nav-close-btn'>
+                            <FaTimes style={{fontSize: 20, color:'steelblue'}}/>
+                        </button>
                     </nav>
                     <button onClick={showNav} className='nav-btn nav-bar'>
                         <FaBars style={{fontSize: 20, color:'steelblue'}}/>
