@@ -25,9 +25,6 @@ const Navbar = () => {
        <nav className={nav ? 'Navbar-active' : 'Navbar-container'}>
             <div className= 'container'>
                 <div className="nav-row">
-                    <div className="nav_logo">
-                            <a href="#Home" className='logo'>OM</a>
-                    </div>
                     <nav ref={navRef}>
                         <ul className= 'navbar'>
                             <li><Link to='Home'spy={true} activeClass='activeClass' smooth={true} duration={1000} onClick={showNav}>Home</Link></li>
