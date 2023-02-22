@@ -28,7 +28,7 @@ const Navbar = () => {
                     <nav ref={navRef}>
                         <ul className= 'navbar'>
                             <li><Link to='Home'spy={true} activeClass='activeClass' smooth={true} duration={1000} onClick={showNav}>Home</Link></li>
-                            <li><Link to='About' spy={true}  smooth={true} duration={1000} onClick={showNav}>About</Link></li>
+                            <li><Link to='About' spy={true}  smooth={true} duration={1000} onClick={showNa}>About</Link></li>
                             <li><Link to='Skill' spy={true}  smooth={true} duration={1000} onClick={showNav}>Skills</Link></li>
                             <li><Link to='Service' spy={true}  smooth={true} duration={1000} onClick={showNav}>Service</Link></li>
                             <li><Link to='Project' spy={true}  smooth={true} duration={1000} onClick={showNav}>Project</Link></li>
