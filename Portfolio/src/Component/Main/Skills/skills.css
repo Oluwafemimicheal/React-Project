@@ -1,6 +1,4 @@
 #Skill {
-    width: 80%;
-    margin: 10% auto;
     display: flex;
     flex-direction: row-reverse;
     text-align: center;
@@ -112,8 +110,6 @@ img {
 
 @media(max-width: 700px) {
     #Skill {
-        width: 95%;
-        margin: -20% auto;
         flex-direction: column;
     }
     #Skill .s-header {
