@@ -55,7 +55,7 @@
 }
 
 @media(max-width:700px) {
-    .navbar {
+    .nav-btn {
         display: none;
     }
     .nav-bar {
