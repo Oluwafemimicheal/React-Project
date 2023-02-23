@@ -24,9 +24,9 @@
 
 .Navbar-active .nav-row {
     position: fixed;
-    bottom: 3%;
+    bottom: 0%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.498);
     z-index: 99;
 }
@@ -60,7 +60,7 @@
         display: none;
     }
     .Navbar-active .nav-row {
-        left: 10%;
+        left: 50%;
     }
     .container-active {
         padding: 5px 10px;
