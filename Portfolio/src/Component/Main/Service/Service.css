@@ -1,18 +1,12 @@
-.service {
-    position: relative;
-    width: 80%;
-    margin: 20px auto;
-    display: flex;
-    height: 90vh;
-    overflow: hidden;
+.service_container {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
 }
 
-.service .s-left {
-    flex: 1;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0.5rem;
+.service_header {
+    text-align: left;
 }
 
 .s-left span:nth-child(1) {

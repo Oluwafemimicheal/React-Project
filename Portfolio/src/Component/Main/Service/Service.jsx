@@ -8,29 +8,31 @@ import './Service.css'
 
 const Service = () =>{
     return(
-        <div className="service" id='Service'>
-            <div className="s-left">
-                <span>My Awesome</span>
-                <span>Service</span>
-                <span>These are some of the services I provide to clients worldwide, including both office work and online work.</span>
-                <button><a href={Resume}>Download CV</a></button>
+        <section className="container" id='Service'>
+            <div className="service_container">
+                <div className="service_header">
+                    <h1>My Awesome</h1>
+                    <h2>Service</h2>
+                    <p>These are some of the services I provide to clients worldwide, including both office work and online work.</p>
+                    <a href={Resume} className="btnb">Download CV</a>
+                </div>
+                <div className="s-right">
+                    <div className="color"></div>
+                    <div className="s-card">
+                    <Card 
+                    image={Graphics} 
+                    text1={'GRAPHICS DESIGN'} 
+                    text2={'Coral draw, Photoshop, Adobe-illustrator'}/>
+                    </div>
+                    <div className="s-card">
+                    <Card image={Code} text1={'FRONTEND DEV'} text2={'Html, Css 3, Javascript, React.js, Bootstrap 5'}/>
+                    </div>
+                    <div className="s-card">
+                    <Card image={Social} text1={'SOCIAL-MEDIA ADS'} text2={'Facebook,Instagram, WhatApp, Youtube'}/>
+                    </div>
+                </div>
             </div>
-            <div className="s-right">
-                <div className="color"></div>
-                <div className="s-card">
-                <Card 
-                image={Graphics} 
-                text1={'GRAPHICS DESIGN'} 
-                text2={'Coral draw, Photoshop, Adobe-illustrator'}/>
-                </div>
-                <div className="s-card">
-                <Card image={Code} text1={'FRONTEND DEV'} text2={'Html, Css 3, Javascript, React.js, Bootstrap 5'}/>
-                </div>
-                <div className="s-card">
-                <Card image={Social} text1={'SOCIAL-MEDIA ADS'} text2={'Facebook,Instagram, WhatApp, Youtube'}/>
-                </div>
-            </div>
-        </div>
+        </section>
     )
 }
 
