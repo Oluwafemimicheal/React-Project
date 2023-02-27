@@ -87,7 +87,9 @@ li {
     cursor: pointer;
 }
 
-img {}
+img {
+    width: 20%;
+}
 
 .btnb {
     width: max-content;
