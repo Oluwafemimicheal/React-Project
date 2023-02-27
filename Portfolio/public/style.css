@@ -93,6 +93,14 @@ li {
     cursor: pointer;
 }
 
+.btn_container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .btn_primary {
     color: var(--color-primary);
     padding: 0.75rem 1.2rem;
