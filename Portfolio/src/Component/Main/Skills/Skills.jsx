@@ -9,23 +9,25 @@ import './skills.css'
 const Skills = () => {
   return (
     <section id='Skill'>
-      <div className="s-header">
-          <h1>Skills</h1>
-          <span>Internship Training</span>
-          <span>This is part of the experience I've gained over the years in order to begin and continue developing my frontend skills.</span>
-      </div>
-      <div className="card-con">
-        <div className="sk-card" >
-        <SkillCard image={HTML}  course='HTML is the standard markup language for creating Web pages.'/>
+      <div className="skill-container">
+        <div className="skill-header">
+            <h1>Skills</h1>
+            <span>Internship Training</span>
+            <span>This is part of the experience I've gained over the years in order to begin and continue developing my frontend skills.</span>
         </div>
-        <div className="sk-card">
-        <SkillCard image={CSS}  course='CSS is the language we use to style an HTML document'/>
-        </div>
-        <div className="sk-card">
-        <SkillCard image={JS} course='JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else'/>
-        </div>
-        <div className="sk-card">
-        <SkillCard image={REACT}  course="It's used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript."/>
+        <div className="skill_cards">
+          <div className="skill_card" >
+          <SkillCard image={HTML}/>
+          </div>
+          <div className="skill_card">
+          <SkillCard image={CSS}/>
+          </div>
+          <div className="skill_card">
+          <SkillCard image={JS}/>
+          </div>
+          <div className="skill_card">
+          <SkillCard image={REACT}/>
+          </div>
         </div>
       </div>
     </section>
