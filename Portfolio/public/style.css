@@ -89,9 +89,7 @@ li {
     cursor: pointer;
 }
 
-.btnb {
-    width: max-content;
-    display: inline-block;
+.btn_primary {
     color: var(--color-primary);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
@@ -106,7 +104,7 @@ li {
     color: var(--color-bg);
 }
 
-.btn-primary {
+.btn-secondary {
     background: var(--color-primary);
     color: var(--color-bg);
 }
@@ -124,20 +122,11 @@ img {
         width: var(--container-width-md);
         margin: auto;
     }
-    h3 {
-        font-size: 1.3rem;
-    }
 }
 
 @media screen and (max-width: 700px) {
     .container {
         width: var(--container-width-sm);
         margin: auto;
-    }
-    section>h2 {
-        margin-bottom: 2rem;
-    }
-    h3 {
-        font-size: 1rem;
     }
 }
