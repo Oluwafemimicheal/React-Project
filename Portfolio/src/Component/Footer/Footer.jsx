@@ -7,8 +7,9 @@ const Footer= () => {
   }
 
     return (
-      <footer id='Contact'>
-        <div className="social-media">
+      <footer className='container' id='Contact'>
+        <div className="footer_container">
+        <div className="social_media">
              <i><Facebook style={style}/></i>
              <i><Instagram style={style}/></i>
              <i><Whatsapp style={style}/></i>
@@ -17,6 +18,7 @@ const Footer= () => {
         </div>
         <div className="header">
             <small>Designed by Oluwafemi Micheal &copy;2023!</small>
+        </div>
         </div>
       </footer>
     )
