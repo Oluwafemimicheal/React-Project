@@ -17,17 +17,19 @@ const Service = () =>{
                     <a href={Resume} className="btn_primary">Download CV</a>
                 </div>
                 <div className="service_cards">
-                    <div className="color"></div>
                     <Card 
                     image={Graphics} 
                     text1={'GRAPHICS DESIGN'} 
                     text2={'Coral draw, Photoshop, Adobe-illustrator'}/>
-                    </div>
-                    <div className="s-card">
-                    <Card image={Code} text1={'FRONTEND DEV'} text2={'Html, Css 3, Javascript, React.js, Bootstrap 5'}/>
-                    </div>
-                    <div className="s-card">
-                    <Card image={Social} text1={'SOCIAL-MEDIA ADS'} text2={'Facebook,Instagram, WhatApp, Youtube'}/>
+                    <Card 
+                    image={Code} 
+                    text1={'FRONTEND DEV'} 
+                    text2={'Html, Css 3, Javascript, React.js, Bootstrap 5'}/>
+                    <div></div>
+                    <Card 
+                    image={Social} 
+                    text1={'SOCIAL-MEDIA ADS'} 
+                    text2={'Facebook,Instagram, WhatApp, Youtube'}/>
                 </div>
             </div>
         </section>

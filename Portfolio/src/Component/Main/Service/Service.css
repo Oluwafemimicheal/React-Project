@@ -12,6 +12,14 @@
 .service_cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+}
+
+.service-card {
+    background-color: steelblue;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 @media(max-width: 700px) {
