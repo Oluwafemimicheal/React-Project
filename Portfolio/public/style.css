@@ -110,7 +110,6 @@ li {
 }
 
 img {
-    display: block;
     width: 50%;
     object-fit: cover;
 }
@@ -121,6 +120,7 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
+        margin: auto;
     }
     h3 {
         font-size: 1.3rem;
@@ -130,6 +130,7 @@ img {
 @media screen and (max-width: 700px) {
     .container {
         width: var(--container-width-sm);
+        margin: auto;
     }
     section>h2 {
         margin-bottom: 2rem;

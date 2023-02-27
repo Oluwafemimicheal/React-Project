@@ -8,7 +8,7 @@ import './skills.css'
 
 const Skills = () => {
   return (
-    <section id='Skill'>
+    <section className='container'>
       <div className="skill-container">
         <div className="skill-header">
             <h1>Skills</h1>
