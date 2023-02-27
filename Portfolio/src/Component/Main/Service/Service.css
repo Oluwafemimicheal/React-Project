@@ -1,5 +1,4 @@
 .service_container {
-    display: flex;
     margin-top: 8rem;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -32,6 +31,17 @@
 
 @media screen and (max-width: 700px) {
     .service_container {
-        grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    .service_header {
+        text-align: center;
+    }
+    .service-card h3,
+    p,
+    a {
+        font-size: 12px;
     }
 }
