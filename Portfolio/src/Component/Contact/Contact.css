@@ -1,86 +1,44 @@
-.container .contact {
-    background-color: steelblue;
+.contact_container {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+    gap: 2rem;
 }
 
-form {
-    width: 70%;
-    margin: 15px auto;
+.contact_form {
+    padding: 2rem;
+    background-color: steelblue;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.contact_form form {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    background-color: steelblue;
-    padding: 3rem;
-}
-
-.header h1 {
-    border-bottom: none;
-}
-
-.btn {
-    width: 20%;
-    margin: auto;
-    color: steelblue;
-    background-color: white;
-}
-
-.btn:hover {
-    color: white;
 }
 
 form input,
-textarea {
-    margin: 5px auto;
-    width: 90%;
-    padding: 5px;
-    background-color: white;
-    color: steelblue;
-    font-size: 18px;
-    outline: none;
-    border: 2px solid steelblue;
-    border-radius: 5px;
+textarea,
+button {
+    padding: 15px;
+    margin-bottom: 15px;
     resize: none;
 }
 
-form input:focus,
-textarea:focus {
-    background-color: rgb(242, 242, 242);
-    box-shadow: 0 0 4px 0 steelblue;
+form button {
+    width: max-content;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(59, 98, 130);
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-input::placeholder,
-textarea::placeholder {
-    font-size: 15px;
-}
-
-@media(max-width: 700px) {
-    .container {
-        width: 95%;
-        margin: auto;
-        text-align: center;
-    }
-    .header {
-        width: 100%;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: left;
-    }
-    .header h1 {
-        font-size: 28px;
-        border-bottom: none;
-    }
-    .header p {
-        margin: 0%;
-        margin-bottom: 20px;
-        font-size: 15px;
-        width: 90%;
-    }
-    .header .p {
-        text-align: center;
-    }
-    form input,
-    textarea {
-        width: 100%;
-    }
-    textarea {
-        height: 5vh;
-    }
+form button:hover {
+    border: 1px solid white;
+    color: white !important;
 }
