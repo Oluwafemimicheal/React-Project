@@ -8,8 +8,8 @@ const ProjectCard = ({image,Title,text,Github,Demo}) => {
             <img src={image} alt="Loading..." style={{width: '80%'}}/>
             </div>
             <div className="p-detail">
-            <span>{Title}</span>
-            <span>{text}</span>
+            <h3>{Title}</h3>
+            <p>{text}</p>
             </div>
             <div className="btn">
               <a href={Github}>Github</a>

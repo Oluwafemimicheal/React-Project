@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 40% 60%;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .skill_cards {
