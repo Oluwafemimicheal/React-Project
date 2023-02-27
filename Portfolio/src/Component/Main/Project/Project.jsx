@@ -16,14 +16,16 @@ const Project = () => {
                     <span>Some projects that I've made thus far using my knowledge and ideals while interning!</span>
                 </div>
                 <div className="project_cards">
-                    <ProjectCard image={Catering} Title='Catering Website' text={"The work attendance book is the place where employees sign in and out for the daily work completed."} Github='https://github.com/Oluwafemimicheal/Portfolio-Project/tree/main/Catering%20Website' Demo='click'
+                    <ProjectCard image={Catering} Title='Catering Website' text={"The work attendance book is the place where employees."} Github='https://github.com/Oluwafemimicheal/Portfolio-Project/tree/main/Catering%20Website'
                     />
 
-                    <ProjectCard image={Attendance} Title='Attendance Checkbook' text={'Friend Cards enable you to make personal notes about your friends.'}   Github='https://github.com/Oluwafemimicheal/Portfolio-Project/tree/main/Attendance' Demo='click'
+                    <ProjectCard image={Attendance} Title='Attendance Checkbook' text={'Friend Cards enable you to make personal notes about your friends.'}   Github='https://github.com/Oluwafemimicheal/Portfolio-Project/tree/main/Attendance'
                     />
                 
-                    <ProjectCard image={UrlPicker} Title='Chrome Extension/Url-Picker' text={'This allows you to save all of your favorite books that you want to read online in your own category store on the Did App!'} Github='https://github.com/Oluwafemimicheal/Portfolio-Project/tree/main/Url%20Picker' Demo='click'
+                <div></div>
+                    <ProjectCard image={UrlPicker} Title='Chrome Extension/Url-Picker' text={'This allows you to save all of your favorite books.'} Github='https://github.com/Oluwafemimicheal/Portfolio-Project/tree/main/Url%20Picker'
                         />
+
                 </div>
             </div>
         </section>
