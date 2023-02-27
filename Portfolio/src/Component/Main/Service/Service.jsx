@@ -16,9 +16,8 @@ const Service = () =>{
                     <p>These are some of the services I provide to clients worldwide, including both office work and online work.</p>
                     <a href={Resume} className="btn_primary">Download CV</a>
                 </div>
-                <div className="s-right">
+                <div className="service_cards">
                     <div className="color"></div>
-                    <div className="s-card">
                     <Card 
                     image={Graphics} 
                     text1={'GRAPHICS DESIGN'} 
@@ -29,7 +28,6 @@ const Service = () =>{
                     </div>
                     <div className="s-card">
                     <Card image={Social} text1={'SOCIAL-MEDIA ADS'} text2={'Facebook,Instagram, WhatApp, Youtube'}/>
-                    </div>
                 </div>
             </div>
         </section>
