@@ -28,7 +28,7 @@ const Banner = () => {
                             <h2>FRONTEND DEV</h2>
                             <p>I'm a Front-end developer, specializing in building 
                             (and occasionally designing), I enjoy creating things that live on the internet</p>
-                            <button className='btnb' onClick={()=> setMegPop(true)}>Let's Connect <ArrowDown style={{fontSize:15}}/></button>
+                            <button className='btn' onClick={()=> setMegPop(true)}>Let's Connect <ArrowDown style={{fontSize:15}}/></button>
                         </motion.div>
                 
                         <div className="image">

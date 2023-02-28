@@ -106,7 +106,14 @@
     box-shadow: none;
 }
 
-@media(max-width: 600px) {
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+        margin: auto;
+    }
+}
+
+@media(max-width: 700px) {
     .Banner-container {
         background: url('../Main/image/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg') no-repeat;
         background-size: cover;
