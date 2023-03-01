@@ -2,7 +2,7 @@
         margin-top: 8rem;
         display: grid;
         grid-template-columns: 40% 60%;
-        gap: 2rem;
+        gap: 5rem;
     }
     
     .about_container .image {
@@ -27,10 +27,10 @@
             width: var(--container-width-md);
             margin: auto;
         }
+        .about_container {
+            gap: 2rem;
+        }
         .about_container .image {
-            background: linear-gradient(135deg, steelblue, transparent, steelblue);
-            border-radius: 2rem;
-            text-align: center;
             height: min-content;
         }
     }
