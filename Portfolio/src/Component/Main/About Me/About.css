@@ -1,101 +1,22 @@
-#About * {
-    margin: 0%;
-    padding: 0%;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+.about_container {
+    display: grid;
+    grid-template-columns: 40% 60%;
 }
 
-#About {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 90vh;
-    overflow: hidden;
-}
-
-#About .image {
-    flex: 1;
-}
-
-#About .image .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    background: linear-gradient(180deg, white, white, white, steelblue, steelblue);
-}
-
-#About .About-detail {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 1rem;
-}
-
-#About .About-detail p {
-    text-align: left;
-    margin: 15px 0%;
-    line-height: 2;
-}
-
-#About .About-detail h1 {
-    color: steelblue;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-#About .About-detail span {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-#About .About-detail button {
-    padding: 5px;
-    background-color: steelblue;
-    color: white;
-}
-
-#About .About-detail button:hover {
-    border: 2px solid steelblue;
-    background-color: transparent;
-    color: steelblue;
-}
-
-@media(max-width: 700px) {
-    #About {
-        width: 95%;
-        margin-bottom: 20%;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+        margin: auto;
     }
-    #About .image {
-        flex: none;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: var(--container-width-sm);
+        margin: auto;
     }
-    #About .image .box {
-        width: 250px;
-        height: 250px;
-        margin-bottom: 10px;
-    }
-    #About .About-detail * {
-        font-size: 14px;
-        text-align: left;
-    }
-    #About .About-detail h1 {
-        font-size: 25px;
-    }
-    #About .About-detail span {
-        font-size: 20px;
-    }
-    #About .About-detail button {
-        padding: 5px;
-        background-color: steelblue;
-        color: white;
+    .about_container {
+        grid-template-columns: 1fr;
+        text-align: center;
     }
 }
