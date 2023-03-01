@@ -12,10 +12,9 @@ const Banner = () => {
     const transition = {duration:1, type: 'spring'}
     const[ megPop, setMegPop] = useState(false)
     return (
-        <section className='Banner-container' id='Home'>
+        <section id='Home'>
             <span className='span'><FaCode style={{fontSize: 40, color: 'steelblue'}}/></span>
             <span className='span'></span>
-            <div className="overlay">
                 <div className="banner_container container">
                         <motion.div
                             initial={{left:'-30%'}}
@@ -32,7 +31,7 @@ const Banner = () => {
                 
                         <div className="banner_image">
                             <img src={bgImage} alt="" className='bg'/>
-                            <img src={Self} alt='Loading' className='self-image'/>
+                            <img src={Self} alt='Loading' className='self'/>
                         </div>
                 </div>
             <Message trigger={megPop}>
@@ -41,7 +40,6 @@ const Banner = () => {
                 <p>Hy, Friend let start chatting!</p>
                 <a href="https://wa.me/+2349163657267" target='_blank' rel="noreferrer"className='btn' > Let's Chat &#8594;</a>
             </Message>
-            </div>
         </section>
     );
 }

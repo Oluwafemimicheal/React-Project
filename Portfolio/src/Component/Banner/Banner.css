@@ -1,9 +1,30 @@
 .banner_container {
-    margin-top: 8rem;
+    height: 100vh;
     display: grid;
     grid-template-columns: 40% 60%;
+    gap: 1rem;
+    align-items: center;
 }
 
 .banner_image {
     position: relative;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_image .bg {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 60%;
+}
+
+.banner_image .self {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    z-index: 6;
 }
