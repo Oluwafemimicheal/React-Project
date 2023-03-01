@@ -9,9 +9,6 @@
 .banner_image {
     position: relative;
     text-align: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .banner_image .bg {
