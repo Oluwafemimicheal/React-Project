@@ -1,5 +1,5 @@
     .about_container {
-        margin-top: 8rem;
+        margin-top: 4rem;
         display: grid;
         grid-template-columns: 40% 60%;
         gap: 5rem;

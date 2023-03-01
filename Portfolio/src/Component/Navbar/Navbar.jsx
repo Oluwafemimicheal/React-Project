@@ -1,5 +1,5 @@
 import React, {useState, useRef} from 'react';
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes, FaHome, FaUser, FaServer, FaSkiing, FaComment, FaPhoneSquare} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import './Navbar.css'
 
@@ -21,18 +21,19 @@ const Navbar = () => {
         navRef.current.classList.toggle('menu-bar')
        
     } 
+    
     return (
        <nav className={nav ? 'Navbar-active' : 'Navbar-container'}>
             <div className= 'container'>
                 <div className="nav-row">
                     <nav ref={navRef}>
                         <ul className= 'navbar'>
-                            <li><Link to='Home'spy={true} activeClass='activeClass' smooth={true} duration={1000} onClick={showNav}>Home</Link></li>
-                            <li><Link to='About' spy={true}  smooth={true} duration={1000} onClick={showNav}>About</Link></li>
-                            <li><Link to='Skill' spy={true}  smooth={true} duration={1000} onClick={showNav}>Skills</Link></li>
-                            <li><Link to='Service' spy={true}  smooth={true} duration={1000} onClick={showNav}>Service</Link></li>
-                            <li><Link to='Project' spy={true}  smooth={true} duration={1000} onClick={showNav}>Project</Link></li>
-                            <li><Link to='Contact' spy={true}  smooth={true} duration={1000} onClick={showNav}>Contact</Link></li>
+                            <li><Link to='Home'spy={true} smooth={true} duration={1000} onClick={showNav}><FaHome/></Link></li>
+                            <li><Link to='About' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaUser/></Link></li>
+                            <li><Link to='Skill' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaSkiing/></Link></li>
+                            <li><Link to='Service' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaServer/></Link></li>
+                            <li><Link to='Project' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaComment/></Link></li>
+                            <li><Link to='Contact' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaPhoneSquare/></Link></li>
                         </ul>
                         <button onClick={showNav} className='nav-btn nav-close-btn'>
                             <FaTimes style={{fontSize: 20, color:'steelblue'}}/>
