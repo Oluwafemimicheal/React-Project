@@ -12,7 +12,7 @@ const Banner = () => {
     const transition = {duration:1, type: 'spring'}
     const[ megPop, setMegPop] = useState(false)
     return (
-        <div className='Banner-container' id='Home'>
+        <section className='Banner-container' id='Home'>
             <span className='span'><FaCode style={{fontSize: 40, color: 'steelblue'}}/></span>
             <span className='span'></span>
             <div className="overlay">
@@ -44,7 +44,7 @@ const Banner = () => {
                 <a href="https://wa.me/+2349163657267" target='_blank' rel="noreferrer"className='btn' > Let's Chat &#8594;</a>
             </Message>
             </div>
-        </div>
+        </section>
     );
 }
 export default Banner;
