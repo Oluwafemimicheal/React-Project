@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 import {ArrowDown} from 'react-bootstrap-icons'
-import Self from '../Main/image/Self.png'
-import bgImage from '../Main/image/bg-image.png'
 import './Banner.css'
 import Message from '../massage/message';
 import{FaWhatsapp, FaTimes, FaCode} from 'react-icons/fa'
@@ -13,7 +11,6 @@ const Banner = () => {
     const[ megPop, setMegPop] = useState(false)
     return (
         <section id='Home'>
-            <span className='span'><FaCode style={{fontSize: 40, color: 'steelblue'}}/></span>
             <span className='span'></span>
                 <div className="banner_container container">
                         <motion.div
@@ -29,9 +26,8 @@ const Banner = () => {
                             <button className='btn' onClick={()=> setMegPop(true)}>Let's Connect <ArrowDown style={{fontSize:15}}/></button>
                         </motion.div>
                 
-                        <div className="banner_image">
-                            <img src={bgImage} alt="" className='bg'/>
-                            <img src={Self} alt='Loading' className='self'/>
+                        <div className="image">
+                        <span className='span'><FaCode style={{fontSize: 400, color: 'steelblue'}}/></span>
                         </div>
                 </div>
             <Message trigger={megPop}>
