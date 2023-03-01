@@ -44,7 +44,11 @@
     .banner_container .detail {
         width: 80%;
         margin: auto;
-        margin-top: 8rem;
+        margin-top: 10rem;
         transform: scale(1.2);
+    }
+    .banner_container .image {
+        margin-top: -3rem;
+        transform: scale(0.8);
     }
 }
