@@ -1,6 +1,19 @@
 .about_container {
     display: grid;
     grid-template-columns: 40% 60%;
+    gap: 2rem;
+}
+
+.about_container .image {
+    background: linear-gradient(135deg, steelblue, transparent, steelblue);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.about_container .image .box {
+    background-color: steelblue;
+    border-radius: 2rem;
+    transform: rotate(-5deg);
 }
 
 @media screen and (max-width: 1024px) {
