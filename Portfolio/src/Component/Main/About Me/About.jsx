@@ -22,7 +22,7 @@ const About = ()=>{
               that can help me grow more effectively in my skills.
               I also recently learning Javascript and React.js to improve my front-end 
               skills in web-development</p>
-              <button>More About</button>
+              <button className="btn">More About</button>
           </div>
         </div>
       </section>

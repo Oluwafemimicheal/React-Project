@@ -29,7 +29,7 @@ const Service = () =>{
                     <h1>My Awesome</h1>
                     <h2>Service</h2>
                     <p>These are some of the services I provide to clients worldwide, including both office work and online work.</p>
-                    <a href={Resume} className="btn_primary">Download CV</a>
+                    <a href={Resume} className="btn btn-primary">Download CV</a>
                 </div>
             </div>
         </section>

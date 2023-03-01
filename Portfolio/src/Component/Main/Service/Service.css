@@ -37,6 +37,9 @@
         flex-direction: column-reverse;
         padding: 1rem;
     }
+    .btn-primary:hover {
+        border: 1px solid white;
+    }
     .service_header {
         text-align: center;
     }
