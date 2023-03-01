@@ -1,4 +1,5 @@
 .skill-container {
+    margin-top: 8rem;
     display: grid;
     grid-template-columns: 40% 60%;
     justify-content: center;
@@ -30,5 +31,9 @@
 @media screen and (max-width: 600px) {
     .skill-container {
         grid-template-columns: 1fr;
+        margin-top: 4rem;
+    }
+    .skill-header {
+        text-align: center;
     }
 }
