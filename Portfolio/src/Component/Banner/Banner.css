@@ -1,0 +1,9 @@
+.banner_container {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.banner_image {
+    position: relative;
+}

@@ -16,8 +16,7 @@ const Banner = () => {
             <span className='span'><FaCode style={{fontSize: 40, color: 'steelblue'}}/></span>
             <span className='span'></span>
             <div className="overlay">
-                <div className="container banner">
-                    <div className="row1">
+                <div className="banner_container container">
                         <motion.div
                             initial={{left:'-30%'}}
                             whileInView={{left: '-10%'}}
@@ -31,11 +30,10 @@ const Banner = () => {
                             <button className='btn' onClick={()=> setMegPop(true)}>Let's Connect <ArrowDown style={{fontSize:15}}/></button>
                         </motion.div>
                 
-                        <div className="image">
+                        <div className="banner_image">
                             <img src={bgImage} alt="" className='bg'/>
                             <img src={Self} alt='Loading' className='self-image'/>
                         </div>
-                    </div>
                 </div>
             <Message trigger={megPop}>
                 <FaWhatsapp style={{fontSize: 50, color: 'green'}}/>

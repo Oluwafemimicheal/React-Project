@@ -61,16 +61,6 @@ h2 {
     color: steelblue;
 }
 
-section {
-    margin-top: 8rem;
-}
-
-section>h2,
-section>h5 {
-    text-align: center;
-    color: var(--color-light);
-}
-
 .text-light {
     color: var(--color-light);
 }
