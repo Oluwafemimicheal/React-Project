@@ -42,8 +42,9 @@
         margin: auto;
     }
     .banner_container .detail {
-        margin-top: 8rem;
-        width: 70%;
+        width: 80%;
         margin: auto;
+        margin-top: 8rem;
+        transform: scale(1.2);
     }
 }
