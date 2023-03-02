@@ -11,10 +11,9 @@ const Layout = () =>{
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, facere! Numquam, enim eveniet amet omnis explicabo voluptates atque. Labore explicabo aspernatur consequuntur corrupti. Rem, laudantium impedit ullam cupiditate distinctio labore!</p>
                     <button>Click Here!</button>
                 </article>
-                <picture>
-                    <span>Image Text</span>
+                <div className="image">
                     <img src="" alt="" />
-                </picture>
+                </div>
             </div>
         </section>
     )
