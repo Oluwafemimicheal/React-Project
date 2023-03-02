@@ -1,6 +1,5 @@
 import React, {useState, useRef} from 'react';
-import {FaBars, FaTimes, FaHome, FaUser, FaServer, FaSkiing, FaPhoneSquare} from 'react-icons/fa'
-import {SlNotebook} from 'react-icons/si'
+import {FaBars, FaTimes, FaHome, FaUser, FaServer, FaSkiing, FaPhoneSquare, FaStickyNote} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import './Navbar.css'
 
@@ -33,7 +32,7 @@ const Navbar = () => {
                             <li><Link to='About' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaUser/></Link></li>
                             <li><Link to='Skill' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaSkiing/></Link></li>
                             <li><Link to='Service' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaServer/></Link></li>
-                            <li><Link to='Project' spy={true}  smooth={true} duration={1000} onClick={showNav}><SlNotebook/></Link></li>
+                            <li><Link to='Project' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaStickyNote/></Link></li>
                             <li><Link to='Contact' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaPhoneSquare/></Link></li>
                         </ul>
                         <button onClick={showNav} className='nav-btn nav-close-btn'>
