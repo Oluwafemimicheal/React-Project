@@ -8,13 +8,13 @@ const Contact = () => {
  const [done, setDone] = useState(false)
 
  const form = useRef();
-    const handleForm = ()=>{
+    const handleForm = (e)=>{
+        e.preventDefault()
     setTimeout(()=>{
         setDone(false)
         form.resetFields()
     }, 3000)
    setDone(true)
-
 }
 
     const sendEmail = (e) => {
@@ -32,7 +32,7 @@ const Contact = () => {
         <section className='container'>
             <div className="contact_container">
                 <div className='contact_form'>
-                    <form ref={form} onSubmit={''} form={form}>
+                    <form ref={form} onSubmit={''}>
                             <input type="text"  name='user_name' placeholder=' Enter your Full name' required/>
                             <input type="email" name='user_email' placeholder='Enter your Email' required />
                         <textarea name='message' cols="30" rows="10"></textarea>
