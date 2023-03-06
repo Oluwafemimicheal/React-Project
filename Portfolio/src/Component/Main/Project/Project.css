@@ -50,4 +50,7 @@
     .project_header {
         text-align: center;
     }
+    .project_cards {
+        grid-template-columns: 1fr;
+    }
 }

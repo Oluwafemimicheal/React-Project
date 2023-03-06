@@ -6,23 +6,17 @@
     gap: 2rem;
 }
 
-.contact_form {
-    padding: 2rem;
-    background-color: steelblue;
-    height: auto;
-    border-radius: 1rem;
-    text-align: center;
-}
-
 .contact_form form {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: column;
 }
 
 form input,
 textarea,
 button {
+    width: 100%;
     padding: 15px;
     margin-bottom: 15px;
     resize: none;

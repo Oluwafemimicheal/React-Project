@@ -43,9 +43,7 @@
     .service_header {
         text-align: center;
     }
-    .service-card h3,
-    p,
-    a {
-        font-size: 12px;
+    .service_cards {
+        grid-template-columns: 1fr;
     }
 }
