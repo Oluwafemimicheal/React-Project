@@ -24,6 +24,7 @@ const Contact = () => {
           }, (error) => {
               console.log(error.text);
           });
+          form.reset()
       };
 
     return (
