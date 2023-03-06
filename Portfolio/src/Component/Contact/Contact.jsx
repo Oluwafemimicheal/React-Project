@@ -1,12 +1,29 @@
-import React from 'react';
+
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Contact.css'
+
+
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_rwj2cgd', 'template_2u5hi9u', form.current, 'JirwjugDbAevkhZQH')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
 
     return (
         <section className='container'>
             <div className="contact_container">
                 <div className='contact_form'>
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                             <input type="text"  name='user_name' placeholder=' Enter your Full name' required/>
                             <input type="email" name='user_email' placeholder='Enter your Email' required />
                         <textarea name='message' cols="30" rows="10"></textarea>
