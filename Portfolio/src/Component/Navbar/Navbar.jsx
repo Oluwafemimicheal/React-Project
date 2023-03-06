@@ -30,7 +30,7 @@ const Navbar = () => {
                 <div className="nav-row">
                     <nav ref={navRef}>
                         <ul className= 'navbar'>
-                            <li><Link to='Home'spy={true} smooth={true} duration={1000} onClick={showNav}><FaHome style={{Size= 40}}/></Link></li>
+                            <li><Link to='Home'spy={true} smooth={true} duration={1000} onClick={showNav}><FaHome style={{Size:'100'}}/></Link></li>
                             <li><Link to='About' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaUser/></Link></li>
                             <li><Link to='Skill' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaSkiing/></Link></li>
                             <li><Link to='Service' spy={true}  smooth={true} duration={1000} onClick={showNav}><FaServer/></Link></li>

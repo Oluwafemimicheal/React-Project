@@ -129,4 +129,7 @@ img {
         width: var(--container-width-sm);
         margin: auto;
     }
+    p {
+        font-size: 2rem;
+    }
 }
