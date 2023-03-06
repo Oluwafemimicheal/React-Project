@@ -44,11 +44,23 @@
     .banner_container .detail {
         width: 80%;
         margin: auto;
-        margin-top: 5rem;
+        margin-top: 7rem;
         transform: scale(1.2);
     }
     .banner_container .image {
         margin-top: -3rem;
         transform: scale(0.8);
+    }
+    .btn-banner {
+        position: absolute;
+        top: 180%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .banner_container .image {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%);
     }
 }

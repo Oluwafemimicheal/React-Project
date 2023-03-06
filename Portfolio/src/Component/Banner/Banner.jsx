@@ -23,7 +23,7 @@ const Banner = () => {
                             <h2>FRONTEND DEV</h2>
                             <p>I'm a Front-end developer, specializing in building 
                             (and occasionally designing), I enjoy creating things that live on the internet</p>
-                            <button className='btn' onClick={()=> setMegPop(true)}>Let's Connect <ArrowDown style={{fontSize:15}}/></button>
+                            <button className='btn btn-banner' onClick={()=> setMegPop(true)}>Let's Connect <ArrowDown style={{fontSize:15}}/></button>
                         </motion.div>
                 
                         <div className="image">
@@ -32,7 +32,7 @@ const Banner = () => {
                 </div>
             <Message trigger={megPop}>
                 <FaWhatsapp style={{fontSize: 50, color: 'green'}}/>
-                <button className='remove' onClick={()=> setMegPop(false)}><FaTimes/></button>
+                <i className='remove' onClick={()=> setMegPop(false)}><FaTimes/></i>
                 <p>Hy, Friend let start chatting!</p>
                 <a href="https://wa.me/+2349163657267" target='_blank' rel="noreferrer"className='btn' > Let's Chat &#8594;</a>
             </Message>
