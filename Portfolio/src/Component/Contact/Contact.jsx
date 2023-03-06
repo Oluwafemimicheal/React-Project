@@ -7,8 +7,15 @@ import './Contact.css'
 const Contact = () => {
  const [done, setDone] = useState(false)
 
+ const form = useRef();
+    const handleForm = ()=>{
+    setTimeout(()=>{
+        setDone(false)
+        form.resetFields()
+    }, 3000)
+   setDone(true)
 
-    const form = useRef();
+}
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -16,7 +23,6 @@ const Contact = () => {
         emailjs.sendForm('service_rwj2cgd', 'template_2u5hi9u', form.current, 'JirwjugDbAevkhZQH')
           .then((result) => {
               console.log(result.text);
-              setDone(true)
           }, (error) => {
               console.log(error.text);
           });
@@ -26,11 +32,11 @@ const Contact = () => {
         <section className='container'>
             <div className="contact_container">
                 <div className='contact_form'>
-                    <form ref={form} onSubmit={sendEmail}>
+                    <form ref={form} onSubmit={''} form={form}>
                             <input type="text"  name='user_name' placeholder=' Enter your Full name' required/>
                             <input type="email" name='user_email' placeholder='Enter your Email' required />
                         <textarea name='message' cols="30" rows="10"></textarea>
-                        <button type="submit" value="Send" className='btn' onReset={form} >Send</button>
+                        <button type="submit" value="Send" className='btn' onClick={() => handleForm()} >Send</button>
                         <span>{done && 'Thanks for contacting me!'}</span>
                     </form>
                 </div>
