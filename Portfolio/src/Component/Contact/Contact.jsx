@@ -8,8 +8,7 @@ const Contact = () => {
  const [done, setDone] = useState(false)
 
  const form = useRef();
-    const handleForm = (e)=>{
-        e.preventDefault()
+    const handleForm = ()=>{
     setTimeout(()=>{
         setDone(false)
         form.resetFields()
@@ -19,7 +18,6 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-    
         emailjs.sendForm('service_rwj2cgd', 'template_2u5hi9u', form.current, 'JirwjugDbAevkhZQH')
           .then((result) => {
               console.log(result.text);
@@ -32,7 +30,7 @@ const Contact = () => {
         <section className='container'>
             <div className="contact_container">
                 <div className='contact_form'>
-                    <form ref={form} onSubmit={''}>
+                    <form ref={form} onSubmit={sendEmail}>
                             <input type="text"  name='user_name' placeholder=' Enter your Full name' required/>
                             <input type="email" name='user_email' placeholder='Enter your Email' required />
                         <textarea name='message' cols="30" rows="10"></textarea>
