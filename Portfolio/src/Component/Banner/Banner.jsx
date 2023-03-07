@@ -27,7 +27,7 @@ const Banner = () => {
                         </motion.div>
                 
                         <div className="image">
-                        <span className='span'><FaCode style={{fontSize: 300, color: 'steelblue'}}/></span>
+                        <i className='span'><FaCode style={{fontSize: 300, color: 'steelblue'}}/></i>
                         </div>
                 </div>
             <Message trigger={megPop}>
