@@ -10,9 +10,9 @@ const Banner = () => {
     const transition = {duration:1, type: 'spring'}
     const[ megPop, setMegPop] = useState(false)
     return (
-        <section id='Home'>
+        <section id='Home' className='container'>
             <span className='span'></span>
-                <div className="banner_container container">
+                <div className="banner_container">
                         <motion.div
                             initial={{left:'-30%'}}
                             whileInView={{left: '-10%'}}
@@ -25,10 +25,8 @@ const Banner = () => {
                             (and occasionally designing), I enjoy creating things that live on the internet</p>
                             <button className='btn btn-banner' onClick={()=> setMegPop(true)}>Let's Connect <ArrowDown style={{fontSize:15}}/></button>
                         </motion.div>
-                
-                        <div className="image">
-                        <i className='span'><FaCode style={{fontSize: 300, color: 'steelblue'}}/></i>
-                        </div>
+                        <FaCode className='icon'/>
+                        
                 </div>
             <Message trigger={megPop}>
                 <FaWhatsapp style={{fontSize: 50, color: 'green'}}/>

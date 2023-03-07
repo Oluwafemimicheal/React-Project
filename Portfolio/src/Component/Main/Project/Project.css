@@ -27,6 +27,11 @@
     margin: 20px 0;
 }
 
+.project-detail a {
+    background: white;
+    padding: 0.7rem
+}
+
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);

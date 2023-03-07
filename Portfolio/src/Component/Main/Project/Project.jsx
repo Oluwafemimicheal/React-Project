@@ -24,7 +24,7 @@ const Project = () => {
                 
                 <div></div>
                     <ProjectCard image={UrlPicker} Title='Chrome Extension/Url-Picker' text={'This allows you to save all of your favorite books.'} Github='https://github.com/Oluwafemimicheal/Portfolio-Project/tree/main/Url%20Picker'
-                        />
+                     />
 
                 </div>
             </div>
