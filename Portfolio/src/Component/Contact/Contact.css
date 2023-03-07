@@ -6,6 +6,14 @@
     gap: 2rem;
 }
 
+.contact_form {
+    padding: 2rem;
+    background-color: steelblue;
+    height: auto;
+    border-radius: 1rem;
+    text-align: center;
+}
+
 .contact_form form {
     display: flex;
     justify-content: space-between;
@@ -51,6 +59,13 @@ form button:hover {
         flex-direction: column-reverse;
         padding: 1rem;
         gap: 0.5rem;
+    }
+    .contact_form {
+        padding: 0;
+        background-color: transparent;
+        height: auto;
+        border-radius: 0;
+        text-align: center;
     }
     .contact_container .header {
         text-align: center;

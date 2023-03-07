@@ -46,4 +46,7 @@
     .service_cards {
         grid-template-columns: 1fr;
     }
+    .service-card {
+        padding: 3rem;
+    }
 }

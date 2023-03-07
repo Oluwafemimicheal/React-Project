@@ -53,4 +53,7 @@
     .project_cards {
         grid-template-columns: 1fr;
     }
+    .project_detail {
+        padding: 1rem 3rem;
+    }
 }
