@@ -12,7 +12,7 @@
 }
 
 .banner_container .icon {
-    margin-left: 40rem;
+    margin-left: 20rem;
     font-size: 22rem;
 }
 
@@ -40,16 +40,19 @@
     .container {
         width: var(--container-width-sm);
         margin: auto;
+        overflow: hidden;
+    }
+    .banner_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .banner_container .detail {
         width: 80%;
         margin: auto;
         margin-top: 7rem;
-        transform: scale(1.2);
-    }
-    .banner_container .image {
-        margin-top: -3rem;
-        transform: scale(0.8);
+        height: 10%;
     }
     .btn-banner {
         position: absolute;
@@ -64,8 +67,10 @@
         transform: translate(-50%);
     }
     .banner_container .icon {
-        font-size: 20rem;
-        margin-top: -22rem;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 18rem;
         color: steelblue;
+        transform: translate(-50%);
     }
 }

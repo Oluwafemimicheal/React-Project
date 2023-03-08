@@ -36,7 +36,6 @@ body {
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
-    overflow: hidden;
 }
 
 h1,
@@ -76,6 +75,15 @@ a {
     background-color: white;
     color: steelblue !important;
     padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.a-primary:hover {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white !important;
 }
 
 a:hover {

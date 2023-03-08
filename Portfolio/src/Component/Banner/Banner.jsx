@@ -11,10 +11,8 @@ const Banner = () => {
     const[ megPop, setMegPop] = useState(false)
     return (
         <section id='Home' className='container'>
-            <span className='span'></span>
                 <div className="banner_container">
                         <motion.div
-                            initial={{left:'-30%'}}
                             whileInView={{left: '-10%'}}
                             transition={transition}
                             className="detail">
@@ -25,7 +23,10 @@ const Banner = () => {
                             (and occasionally designing), I enjoy creating things that live on the internet</p>
                             <button className='btn btn-banner' onClick={()=> setMegPop(true)}>Let's Connect <ArrowDown style={{fontSize:15}}/></button>
                         </motion.div>
-                        <FaCode className='icon'/>
+                        <div className='icon'>
+                        <FaCode/>
+                        </div>
+                        
                         
                 </div>
             <Message trigger={megPop}>

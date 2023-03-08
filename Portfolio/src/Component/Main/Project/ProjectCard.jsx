@@ -10,7 +10,11 @@ const ProjectCard = ({image,Title,text,Github}) => {
             <div className="project_detail">
                 <h3>{Title}</h3>
                 <p>{text}</p>
-                <a className='a-primary' href={Github}>Github</a>
+                <a 
+                className='a-primary' 
+                href={Github} 
+                target='_blank' 
+                >Github</a>
             </div>
         </div>
     );
