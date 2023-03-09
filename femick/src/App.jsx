@@ -13,7 +13,6 @@ import Contact from './component/Contact/Contact'
 function App() {
   return (
    <>
-    <Navbar/>
     <Home/>
     <Platform/>
     <Solution/>
