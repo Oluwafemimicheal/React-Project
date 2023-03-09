@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import './Navbar.css'
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes, FaSearch} from 'react-icons/fa'
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false)
@@ -17,8 +17,9 @@ const Navbar = () => {
               <li  onClick={()=> setIsMobile(false)}><a href="contact">Contact</a></li>
           </ul>
         </div>
-          <span className='log-in'>
-              <a href="login"Log-in>Log-in</a>
+          <span className='log'>
+            <FaSearch style={{fontSize:'25px'}}/>
+              <a href="login" className='login' Log-in>Log-in</a>
           </span>
         <button className='mobile-btn' onClick={ () => setIsMobile(!isMobile)}>
           {isMobile ? <FaTimes/> : <FaBars/>}
