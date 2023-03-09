@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="left-side">
           <span className='logo'>Femick</span>
           <ul className={ isMobile ? 'mobile-nav-link' : 'nav-link'}>
-              <li onClick={()=> setIsMobile(false)}><a href="home">Home</a></li>
+              <li onClick={()=> setIsMobile(false)}><a href="home">What is Femick</a></li>
               <li  onClick={()=> setIsMobile(false)}><a href="platform">Platform</a></li>
               <li  onClick={()=> setIsMobile(false)}><a href="solution">Solution</a></li>
               <li  onClick={()=> setIsMobile(false)}><a href="resources">Resources</a></li>
