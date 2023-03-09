@@ -2,3 +2,119 @@
     background: rgb(38, 38, 38);
     height: 100vh
 }
+
+.home-container {
+    margin-top: 6rem;
+    display: grid;
+    justify-items: end;
+    grid-template-columns: 60% 40%;
+    gap: 2rem;
+    color: white;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+article h3 {
+    font-weight: lighter;
+}
+
+article h1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 0.9;
+}
+
+article .details {
+    margin: 20px 0 0 40px;
+    padding: 0 2rem 1rem;
+    border-left: 3px solid gray;
+}
+
+article p {
+    font-size: 1.2rem;
+    width: 70%;
+    line-height: 1.2;
+}
+
+article .buttons {
+    margin-top: 2rem;
+}
+
+.image {
+    background: linear-gradient(180deg, transparent, gray);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 5rem;
+    animation: display 2.5s linear infinite;
+}
+
+.image::after {
+    content: '';
+    display: block;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, transparent, gray);
+    animation: display 3s ease-in-out infinite;
+}
+
+@keyframes display {
+    0% {
+        transform: rotate(50deg);
+        border-radius: 20%;
+    }
+    50% {
+        transform: rotate(90deg);
+        transform: scale(0.5);
+        background-color: transparent;
+    }
+    100% {
+        transform: rotate(360deg);
+        transform: scale(0.8);
+        border-radius: 0%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .home-container {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 1.5;
+    }
+    article h1 {
+        font-size: 2.8rem;
+    }
+    article .details {
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        border: none;
+    }
+    article .details p {
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+    .image {
+        margin-top: 3rem;
+        margin-right: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .image::after {
+        width: 200px;
+        height: 200px;
+    }
+}

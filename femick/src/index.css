@@ -54,6 +54,27 @@ button {
     margin: 10px 0;
 }
 
+.btn {
+    padding: 0.5rem 1rem;
+    width: max-content;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    border-color: yellow;
+    background-color: yellow;
+    color: black !important;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
 button:hover {
     background-color: #213547d2;
 }

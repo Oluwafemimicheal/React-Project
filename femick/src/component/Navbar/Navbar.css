@@ -1,8 +1,10 @@
 .navbar {
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 1rem 0;
 }
 
 .left-side {
@@ -57,14 +59,16 @@ button {
 
 @media screen and (max-width: 700px) {
     .navbar {
-        position: fixed;
         width: 100%;
+        position: sticky;
         padding: 10px;
+        top: 0%;
+        left: 0;
         background-color: rgb(77, 77, 77);
         animation: slide-down 0.5s linear;
     }
     .nav-link,
-    .log-in {
+    .navbar .log {
         display: none;
     }
     button {
