@@ -19,7 +19,6 @@ const Navbar = () => {
 
     const showNav = ()=>{
         navRef.current.classList.toggle('menu-bar')
-       
     } 
 
 

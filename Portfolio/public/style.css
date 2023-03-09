@@ -137,7 +137,6 @@ img {
     .container {
         width: var(--container-width-md);
         margin: auto;
-        overflow: hidden;
     }
 }
 
@@ -145,7 +144,6 @@ img {
     .container {
         width: var(--container-width-sm);
         margin: auto;
-        overflow: hidden;
     }
     p {
         font-size: 1rem !important;

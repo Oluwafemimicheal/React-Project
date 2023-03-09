@@ -40,34 +40,18 @@
     .container {
         width: var(--container-width-sm);
         margin: auto;
-        overflow: hidden;
     }
     .banner_container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding: 0;
     }
     .banner_container .detail {
         width: 80%;
-        margin: auto;
-        margin-top: 7rem;
-        height: 10%;
-    }
-    .btn-banner {
-        position: absolute;
-        top: 190%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-    .banner_container .image {
-        display: none;
     }
     .banner_container .icon {
-        display: flex;
-        justify-content: flex-start;
-        font-size: 18rem;
-        color: steelblue;
-        transform: translate(-50%);
+        display: none;
     }
 }
