@@ -1,21 +1,36 @@
 .navbar {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2rem
+}
+
+.logo {
+    padding: 1rem;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+}
+
+.nav-link {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
+    list-style: none;
+}
+
+a {
+    color: white !important;
+}
+
+.nav-link a {
+    padding-bottom: 0.5rem;
     color: white;
+    margin: 10px;
 }
 
-span {
-    display: flex;
-    align-items: center;
+.nav-link a:hover {
+    border-bottom: 3px solid white;
+    background-color: transparent;
 }
 
-span nav {
-    margin-left: 40px;
-}
-
-nav a {
-    margin-left: 30px;
-    color: white;
+.navbar .log-in {
+    padding: 0.5rem;
+    border: 3px solid white;
 }

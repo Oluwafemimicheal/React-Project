@@ -1,31 +1,25 @@
 import React from 'react';
 import './Navbar.css'
-import {BiSearchBar} from 'react-icons/bi'
 
 const Navbar = () => {
     return (
-        <div>
-            <div className=' container navbar'>
-                <span>
-                    <div className="logo">
-                        <h1>femick</h1>
-                    </div>
-                    <nav>
-                        <a href="Home">What is Femick</a>
-                        <a href="Platform">Platform</a>
-                        <a href="Solution">Solution</a>
-                        <a href="Resources">Resources</a>
-                        <a href="About">About</a>
-                        <a href="Contact">Contact</a>
-                    </nav>
-                </span>
-                <div className="login">
-                    <i></i>
-                    <a href="Login">Login</a>
-                </div>
-            </div>
-
-         </div>
+      <nav className='navbar'>
+        <div className="left-side">
+        <span className='logo'>Femick
+        </span>
+        <ul className='nav-link'>
+            <li><a href="home">Home</a></li>
+            <li><a href="platform">Platform</a></li>
+            <li><a href="solution">Solution</a></li>
+            <li><a href="resources">Resources</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+        </div>
+        <span className='log-in'>
+            <a href="login"Log-in>Log-in</a>
+        </span>
+      </nav>
     );
 }
 
