@@ -29,3 +29,43 @@
 a.active {
     border-bottom: 4px solid black;
 }
+
+.resources-cards {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.resources-card {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.resources-card p {
+    margin: 2rem 0;
+    font-weight: lighter;
+}
+
+@media(max-width: 700px) {
+    .container {
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .resources-navbar {
+        flex-direction: column;
+    }
+    .resources-cards {
+        margin-top: 4rem;
+        grid-template-columns: 1fr;
+    }
+    .resources-navbar .link {
+        margin-top: 5rem;
+    }
+    .resources-navbar a {
+        margin-right: 1rem;
+    }
+}

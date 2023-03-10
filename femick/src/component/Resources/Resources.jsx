@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Card from './ResourcesCard'
 import './Resources.css'
 
 const Resources = () => {
@@ -18,7 +19,10 @@ const Resources = () => {
                         </ul>
                     </nav>
                     <div className="resources-cards">
-                        
+                            <Card text='Accept' paragraph='Trying this will help your business grow quick, and the is the way you will be accepted in the world also. Our team are the best team every and we help all specific customers who is willing to take us in at long this offer is concerned '/>
+                            <Card text='Accept' paragraph='Trying this will help your business grow quick, and the is the way you will be accepted in the world also. Our team are the best team every and we help all specific customers who is willing to take us in at long this offer is concerned '/>
+                            <Card text='Accept' paragraph='Trying this will help your business grow quick, and the is the way you will be accepted in the world also. Our team are the best team every and we help all specific customers who is willing to take us in at long this offer is concerned '/>
+                            <Card text='Accept' paragraph='Trying this will help your business grow quick, and the is the way you will be accepted in the world also. Our team are the best team every and we help all specific customers who is willing to take us in at long this offer is concerned '/>
                     </div>
                 </div>
             </div>
