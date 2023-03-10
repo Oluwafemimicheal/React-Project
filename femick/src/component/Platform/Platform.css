@@ -34,10 +34,6 @@
     background-color: rgba(51, 75, 16, 0.255);
 }
 
-.platform .card:first-child {
-    padding-left: 0%;
-}
-
 .platform .card:last-child {
     border-right: none;
 }
@@ -59,4 +55,26 @@
 .card .btn-link {
     color: white;
     border-bottom: 2px solid white;
+}
+
+@media(max-width: 700px) {
+    .platform .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 2.8rem;
+    }
+    .platform .cards .card {
+        padding: 3rem;
+        text-align: left;
+        height: max-content;
+        border-right: none;
+        border-bottom: 2px solid white;
+        color: white;
+        transition: all 0.4s ease-in-out;
+    }
+    .platform .cards .card:last-child {
+        border-bottom: none;
+    }
 }
