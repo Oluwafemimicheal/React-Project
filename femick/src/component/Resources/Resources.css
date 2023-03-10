@@ -1,0 +1,31 @@
+.resources-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resources-navbar h2 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.resources-navbar .link {
+    border-bottom: 2px solid gray;
+    padding-bottom: 0.5rem;
+}
+
+.resources-navbar a {
+    color: black !important;
+    font-weight: 600 !important;
+    margin-right: 3rem;
+    padding: 0.6rem;
+    font-size: 1.2rem;
+}
+
+.resources-navbar a:last-child {
+    margin-right: 0rem;
+}
+
+a.active {
+    border-bottom: 4px solid black;
+}
