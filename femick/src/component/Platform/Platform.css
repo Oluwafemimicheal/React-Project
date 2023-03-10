@@ -17,18 +17,46 @@
 .platform .card-container {
     width: 90%;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .platform .cards .card {
-    width: 470px;
+    padding: 3rem;
+    text-align: left;
     height: max-content;
-    padding: 20px;
     border-right: 2px solid white;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+    background-color: rgba(51, 75, 16, 0.255);
+}
+
+.platform .card:first-child {
+    padding-left: 0%;
 }
 
 .platform .card:last-child {
     border-right: none;
+}
+
+.card h3 {
+    margin-bottom: 2rem;
+}
+
+.platform .card .image,
+.image:after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 3rem 0;
+}
+
+.card .btn-link {
+    color: white;
+    border-bottom: 2px solid white;
 }
