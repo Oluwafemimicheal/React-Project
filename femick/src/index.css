@@ -36,13 +36,17 @@ a {
     padding: 5px;
 }
 
-h1 {
-    font-size: 2em;
-    margin: 0 0 0 0;
+h2 {
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 h3 {
     font-size: 1.5rem;
+}
+
+small {
+    font-size: 1.2rem;
 }
 
 button {
@@ -72,6 +76,11 @@ button {
 .btn-primary {
     border-color: yellow;
     background-color: yellow;
+    color: black !important;
+}
+
+.btn-black {
+    border-color: black;
     color: black !important;
 }
 
