@@ -6,6 +6,7 @@ import Solution from './component/Solution/Solution'
 import Resources from './component/Resources/Resources'
 import About from './component/About/About'
 import Contact from './component/Contact/Contact'
+import Testimony from './component/Testimony/Testimony'
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <Solution/>
     <Resources/>
     <About/>
+    <Testimony/>
     <Contact/>
    </>
   )

@@ -1,0 +1,84 @@
+.testimony {
+    position: relative;
+    height: 70vh;
+}
+
+.testimony-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimony-header h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.testimony-header span {
+    display: flex;
+    align-items: center;
+}
+
+.testimony-header span h2 {
+    font-size: 2rem;
+    color: gray;
+    margin-right: 1rem;
+}
+
+.icon {
+    border: 2px solid gray;
+    padding: 10px;
+    color: gray;
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: gray;
+    color: white;
+}
+
+.testimony-container {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimony-container .testimony-box {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden3
+}
+
+.testimony-container .testimony-box .testimony-card {
+    width: 1200px;
+    transform: translateX(900px);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    gap: 3rem;
+    margin: 1rem;
+    border: 2px solid gray;
+    background-color: white;
+}
+
+.testimony-card:nth-child(1) {
+    left: 20%;
+}
+
+.testimony-card .user {
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+}
