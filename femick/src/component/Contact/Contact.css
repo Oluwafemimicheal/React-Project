@@ -14,3 +14,12 @@
     margin-right: 10rem;
     animation: display 3s ease-in-out infinite;
 }
+
+@media(max-width:700px) {
+    .contact-container {
+        margin: 2rem 0;
+    }
+    .contact-container span {
+        display: none;
+    }
+}

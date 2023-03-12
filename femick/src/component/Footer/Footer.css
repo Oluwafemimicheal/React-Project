@@ -47,6 +47,10 @@ footer {
     .footer-nav li {
         margin: 0.5rem 0;
     }
+    .footer-logo span {
+        width: 100px;
+        height: 40px;
+    }
     .footer-end span {
         width: 50%;
     }
