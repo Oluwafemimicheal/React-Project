@@ -78,11 +78,7 @@ article .buttons {
     }
 }
 
-@media screen and (max-width:700px) {
-    .container {
-        width: 95%;
-        margin: auto;
-    }
+@media (max-width:700px) {
     .home-container {
         margin-top: 4rem;
         display: flex;
