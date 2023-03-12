@@ -19,15 +19,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-nav">
                     <nav>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                    </nav>
-                    <nav>
-                        <li><a href="#">Home</a></li>
+                        <li><h4>Link</h4></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
@@ -35,15 +27,7 @@ const Footer = () => {
                         <li><a href="#">Home</a></li>
                     </nav>
                     <nav>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                    </nav>
-                    <nav>
-                        <li><a href="#">Home</a></li>
+                        <li><h4>Link</h4></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
@@ -51,15 +35,7 @@ const Footer = () => {
                         <li><a href="#">Home</a></li>
                     </nav>
                     <nav>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                    </nav>
-                    <nav>
-                        <li><a href="#">Home</a></li>
+                        <li><h4>Link</h4></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
@@ -67,13 +43,30 @@ const Footer = () => {
                         <li><a href="#">Home</a></li>
                     </nav>
                     <nav>
-                        <li><a href="#">Home</a></li>
+                        <li><h4>Link</h4></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
                     </nav>
+                    <nav>
+                        <li><h4>Link</h4></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                    </nav>
+                    <nav>
+                        <li><h4>Link</h4></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                    </nav>
+                   
                 </div>
                 <div className="footer-end">
                     <small>Copyright 2023</small>

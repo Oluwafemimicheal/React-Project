@@ -4,7 +4,7 @@ footer {
 }
 
 .footer-container>div {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .footer-logo {
@@ -21,7 +21,7 @@ footer {
 .footer-nav {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 .footer-end {
@@ -35,4 +35,22 @@ footer {
     width: 35%;
     display: flex;
     justify-content: space-between;
+}
+
+@media(max-width: 700px) {
+    .footer-logo,
+    .footer-nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-logo span,
+    .footer-nav li {
+        margin: 0.5rem 0;
+    }
+    .footer-end span {
+        width: 50%;
+    }
+    .footer-end small {
+        font-size: 0.7rem;
+    }
 }
