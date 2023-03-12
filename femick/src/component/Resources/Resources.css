@@ -1,6 +1,7 @@
 .resources-navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .resources-navbar h2 {
@@ -56,6 +57,7 @@ a.active {
     }
     .resources-navbar {
         flex-direction: column;
+        align-items: flex-start;
     }
     .resources-cards {
         margin-top: 4rem;
