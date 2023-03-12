@@ -14,9 +14,26 @@ const Footer = () => {
                     <span className='flex'>logo</span>
                     <span className='flex'>logo</span>
                     <span className='flex'>logo</span>
+                    <span className='flex'>logo</span>
                    
                 </div>
                 <div className="footer-nav">
+                    <nav>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                    </nav>
+                    <nav>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                    </nav>
                     <nav>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Home</a></li>
