@@ -71,11 +71,11 @@ button {
     .navbar .log {
         display: none;
     }
-    button {
+    .navbar button {
         display: flex;
         transition: all 0.5s linear;
     }
-    .mobile-nav-link {
+    .navbar .mobile-nav-link {
         width: 100%;
         display: block;
         position: absolute;
@@ -94,7 +94,7 @@ button {
             transform: translateY(0%);
         }
     }
-    .mobile-nav-link li {
+    .navbar .mobile-nav-link li {
         text-align: center;
         font-size: 20px;
         padding: 1rem;

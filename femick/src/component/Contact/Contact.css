@@ -19,6 +19,9 @@
     .contact-container {
         margin: 2rem 0;
     }
+    article {
+        margin-bottom: 1rem;
+    }
     .contact-container span {
         display: none;
     }

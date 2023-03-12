@@ -15,13 +15,13 @@ function App() {
   return (
    <>
     <Home/>
-    {/* <Platform/> */}
-    {/* <Solution/>
+    <Platform/>
+    <Solution/>
     <Resources/>
-    <About/> */}
-    {/* <Testimony/>
+    <About/>
+    <Testimony/>
     <Contact/>
-    <Footer/> */}
+    <Footer/>
    </>
   )
 }

@@ -17,10 +17,10 @@ const Navbar = () => {
               <li  onClick={()=> setIsMobile(false)}><a href="contact">Contact</a></li>
           </ul>
         </div>
-          <span className='log'>
-            <FaSearch style={{fontSize:'25px'}}/>
-              <a href="login" className='login' Log-in>Log-in</a>
-          </span>
+        <span className='log'>
+          <FaSearch style={{fontSize:'25px'}}/>
+            <a href="login" className='login' Log-in>Log-in</a>
+        </span>
         <button className='mobile-btn' onClick={ () => setIsMobile(!isMobile)}>
           {isMobile ? <FaTimes/> : <FaBars/>}
         </button>
